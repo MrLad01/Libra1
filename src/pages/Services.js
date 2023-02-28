@@ -8,7 +8,7 @@ export default function Services() {
       <div>
         <img src="" alt="" />
         <h4>Source books</h4>
-        <p>We diligently go through the process of vetting, selecting and compil live changing books for your reading enjoyment</p>
+        <p>We diligently go through the process of vetting, selecting and compile live changing books for your reading enjoyment</p>
       </div>
       <div>
         <img src="" alt="" />
