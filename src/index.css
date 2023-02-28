@@ -72,27 +72,27 @@
   border: 1px solid #19CC56;
 }
 
-.home img{
+.home1 img{
   width: 636px;
   height: 832px;
   margin-top: 40px;
 }
-.home{
+.home1{
   display:flex;
   flex-direction: row;
   gap: 60px;
 }
-.home .home-text{
-  margin-top: 202.5px;
+.home1 .home-text{
+  margin-top: 170px;
 }
-.home .home-text .first-text{
+.home1 .home-text .first-text{
   font-size: 64px;
   width: 520px;
   font-weight: 600;
   line-height: 80px;
   color: #353135;
 }
-.home .home-text .second-text{
+.home1 .home-text .second-text{
   margin-top: 24px;
   width: 505px;
   font-size: 28px;
@@ -100,13 +100,13 @@
   font-weight: 400;
   color: #5E5A5E;
 }
-.home .home-text div{
+.home1 .home-text div{
   display: flex;
   flex-direction: row;
   margin-top: 51px;
   gap: 24px; 
 }
-.home .home-text div a{
+.home1 .home-text div a{
   padding: 14.5px 22px;
   text-decoration: none;
   font-weight: 600;
@@ -116,10 +116,15 @@
   border: 2px solid #19CC56;
   color: #19CC56;
 }
-.home .home-text div a:hover{
+.home1 .home-text div a:hover{
   padding: 14.5px 18px;
   border: 1px solid #19CC56;
   background: #19CC56;
   color: #ffffff;
 }
-
+a img{
+  position: relative;
+  bottom: 30px;
+  left: 541px;
+  background: none;
+}
