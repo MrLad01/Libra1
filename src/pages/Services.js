@@ -67,7 +67,12 @@ export default function Services() {
                 <h5>Half of a yellow sun</h5>
                 <h6>Austin Kleon</h6>
                 <div>
+                    <div className="stars">
                     <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    </div>
                     <button>View details</button>
                 </div>
             </div>
@@ -81,7 +86,12 @@ export default function Services() {
                 <h5>The sun and her flowers</h5>
                 <h6>Rupi Kaur</h6>
                 <div>
+                    <div className="stars">
                     <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    </div>
                     <button>View details</button>
                 </div>
             </div>
@@ -94,7 +104,12 @@ export default function Services() {
                 <h5>Purple Hibicus</h5>
                 <h6>Chimamanda Adichie</h6>
                 <div>
+                    <div className="stars">
                     <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    </div>
                     <button>View details</button>
                 </div>
             </div>
