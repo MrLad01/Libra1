@@ -1,5 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
 import arrow from "../images/chevron-down.png"
+import book1 from "../images/image 16.png";
+import book2 from "../images/image 14.png";
+import book3 from "../images/image 13.png";
+import book4 from "../images/image 12.png";
+
 
 export default function Other() {
   return (
@@ -7,62 +12,89 @@ export default function Other() {
       <div className="other">
         <h2>Other Books</h2>
         <div className="search-bar">
-            <div></div>
+            <div>
+                <h3>All</h3>
+                <select name="" id="">
+                    <option value="">Genre</option>
+                </select>
+            </div>
             <input type="text" />
         </div>
-        <div className="books1">
-            <div className="book1">
-                <div className="book-img">
-                    <img src="" alt="" />
-                </div>
-                <div className="book-content">
-                    <h4>The Alchemist</h4>
-                    <h6>Paulo Coelho</h6>
-                    <div className="more">
-                        <i></i>
-                        <button>View details</button>
-                    </div>
+        <div className="t-books">
+          <div className="t-book">
+            <div className="t-img">
+                <img src={ book1 } alt="" />
+            </div>
+            <div className="t-content">
+                <h5>The Alchemist</h5>
+                <h6>Paulo Coelho</h6>
+                <div>
+                  <div className="stars">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                  </div>
+                    <button>View details</button>
                 </div>
             </div>
-            <div className="book1">
-                <div className="book-img">
-                    <img src="" alt="" />
-                </div>
-                <div className="book-content">
-                    <h4>A confederacy of dunces</h4>
-                    <h6>John Kennedy T.</h6>
-                    <div className="more">
-                        <i></i>
-                        <button>View details</button>
+          </div>
+          <div className="t-book">
+            <div className="t-img">
+                <img src={ book2 } alt="" />
+            </div>
+            <div className="t-content">
+                <h5>A confederacy of dunces</h5>
+                <h6>John Kennedy T.</h6>
+                <div>
+                    <div className="stars">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
                     </div>
+                    <button>View details</button>
                 </div>
             </div>
-            <div className="book1">
-                <div className="book-img">
-                    <img src="" alt="" />
-                </div>
-                <div className="book-content">
-                    <h4>Why we sleep</h4>
-                    <h6>Matthew Walker</h6>
-                    <div className="more">
-                        <i></i>
-                        <button>View details</button>
+            
+          </div>
+          <div className="t-book">
+            <div className="t-img">
+                <img src={ book3} alt="" />
+            </div>
+            <div className="t-content">
+                <h5>Why we sleep</h5>
+                <h6>Matthew Walker</h6>
+                <div>
+                    <div className="stars">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
                     </div>
+                    <button>View details</button>
                 </div>
             </div>
-            <div className="book1">
-                <div className="book-img">
-                    <img src="" alt="" />
-                </div>
-                <div className="book-content">
-                    <h4>An enemy called average</h4>
-                    <h6>John L. Mason</h6>
-                    <div className="more">
-                        <i></i>
-                        <button>View details</button>
+          </div>
+          <div className="t-book">
+            <div className="t-img">
+                <img src={ book4 } alt="" />
+            </div>
+            <div className="t-content">
+                <h5>An enemy called average</h5>
+                <h6>John L.Mason</h6>
+                <div>
+                    <div className="stars">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
                     </div>
+                    <button>View details</button>
                 </div>
             </div>
+          </div>
+
         </div>
 
         <div className="nav-buttons">
