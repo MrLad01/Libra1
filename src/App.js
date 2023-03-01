@@ -4,14 +4,20 @@ import { createBrowserRouter,
          Route} from "react-router-dom";
 import HomeLayout from "./Layout/HomeLayout";
 import LandingLayout from "./Layout/LandingLayout";
+import Other from "./pages/Other";
+import Services from "./pages/Services";
+
 
          const router = createBrowserRouter(
            createRoutesFromElements(
                 <Route>
                    <Route path="/" element={<LandingLayout />}>
-                      <Route index element={<HomeLayout />}>
-
+                      <Route index element={<HomeLayout />} >
                       </Route>
+                        <Route path="services" element={<Services />}>
+                          <Route path="others" element={<Other />}></Route>
+                        </Route>
+                        
                     </Route>  
                 </Route>
              
