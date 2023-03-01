@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-
+import { NavLink, Outlet } from "react-router-dom";
+import arrow from "../images/chevron-down.png"
 
 export default function Other() {
   return (
@@ -117,13 +117,17 @@ export default function Other() {
         <div></div>
       </div>
       <hr />
-      <h3>Have reviews or ratings to give about your favourite book? Enter it below  </h3>
-      <input type="text" />
-      <button>Send</button>
+      <div>
+        <h3>Have reviews or ratings to give about your favourite book? Enter it below  </h3>
+        <input type="text" />
+        <button>Send</button>
+      </div>
 
       <NavLink to="footer">
-          <img src="" alt="" />
+          <img src={ arrow } alt="" />
       </NavLink>
+
+      <Outlet />
     </div>
   )
 }

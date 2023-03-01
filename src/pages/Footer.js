@@ -1,9 +1,38 @@
-
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div>
-      
+    <div className="footer">
+      <div>
+        <div>
+            <img src="" alt="" />
+            <div>
+                <h2>We dedicate time diligently to provide books for you</h2>
+                <hr />
+                <p>Read through our code of conduct and terms of agreement on borrowing of books</p>
+                <button>Read</button>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <h3>Contact us on:</h3>
+        <div>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div>
+            <Link to=""></Link>
+            <Link to=""></Link>
+            <Link to=""></Link>
+            <select name="" id="">
+                <option value="">EN</option>
+            </select>
+            <Link to=""></Link>
+        </div>
+        <hr />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id quo labore aliquid ipsam dolores placeat sed modi quis provident.</p>
+      </footer>
     </div>
   )
 }

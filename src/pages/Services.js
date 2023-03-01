@@ -1,29 +1,43 @@
 import { NavLink, Outlet } from "react-router-dom";
-import arrow  from "../images/chevron-down.png"
+import arrow  from "../images/chevron-down.png";
+import item1 from "../images/item1.png";
+import item2 from "../images/item2.png";
+import item3 from "../images/item3.png";
 
 export default function Services() {
   return (
     <div className="services">
-      <h3>What we do</h3>
-      <div>
-        <img src="" alt="" />
-        <h4>Source books</h4>
-        <p>We diligently go through the process of vetting, selecting and compile live changing books for your reading enjoyment</p>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <h4>Lend Books</h4>
-        <p>We help you save some money while getting the same value through the lending of books at reduced rates</p>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <h4>Deliver Books</h4>
-        <p>Our efficient delivery service gets your books to your doorstep saving you some energy to read</p>
+      <div className="what-we-do">  
+        <h3>What We Do</h3>
+        <div>
+        <NavLink to="/">
+        <div className="items">
+          <img src={ item1 } alt="" />
+          <h4>Source books</h4>
+          <p>We diligently go through the process of vetting, selecting and compile live changing books for your reading enjoyment</p>
+        </div>
+        </NavLink>
+        <NavLink to="/">
+        <div className="items">
+          <img src={ item2 } alt="" />
+          <h4>Lend Books</h4>
+          <p>We help you save some money while getting the same value through the lending of books at reduced rates</p>
+        </div>
+        </NavLink>
+        <NavLink to="/">
+        <div className="items">
+          <img src={ item3 } alt="" />
+          <h4>Deliver Books</h4>
+          <p>Our efficient delivery service gets your books to your doorstep saving you some energy to read</p>
+        </div>
+        </NavLink>
+        </div>
       </div>
 
-      <div>
+      <div className="trending">
         <h3>Trending Books</h3>
-        <div>
+        <div className="t-books">
+          <div className="t-book">
             <div>
                 <img src="" alt="" />
             </div>
@@ -35,7 +49,8 @@ export default function Services() {
                     <button>View details</button>
                 </div>
             </div>
-
+          </div>
+          <div className="t-book">
             <div>
                 <img src="" alt="" />
             </div>
@@ -48,6 +63,8 @@ export default function Services() {
                 </div>
             </div>
             
+          </div>
+          <div className="t-book">
             <div>
                 <img src="" alt="" />
             </div>
@@ -59,7 +76,8 @@ export default function Services() {
                     <button>View details</button>
                 </div>
             </div>
-
+          </div>
+          <div className="t-book">
             <div>
                 <img src="" alt="" />
             </div>
@@ -71,6 +89,8 @@ export default function Services() {
                     <button>View details</button>
                 </div>
             </div>
+          </div>
+
         </div>
 
         <div className="nav-buttons">

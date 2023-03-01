@@ -2,9 +2,13 @@
 
 *{
   margin: 0;
-  background: linear-gradient(90deg, rgba(241, 255, 246, 0.86) 0%, rgba(248, 248, 248, 0.86) 101.67%);
+  /* background: linear-gradient(90deg, rgba(241, 255, 246, 0.86) 0%, rgba(248, 248, 248, 0.86) 101.67%); */
   padding: 0;
   font-family: 'lexend';
+}
+
+body{
+  background: linear-gradient(90deg, rgba(241, 255, 246, 0.86) 0%, rgba(248, 248, 248, 0.86) 101.67%);
 }
 
 .landing > header > img{
@@ -49,6 +53,7 @@
   border: none;
   width: 100px;
   margin-top: -8px;
+  background: none;
 }
 .landing > header > div > a{
   text-decoration: none;
@@ -118,11 +123,110 @@
   background: #19CC56;
   color: #ffffff;
 }
-a img{
+.home a img{
   position: relative;
   left: 541px;
   background: none;
+  top: 30px; 
 }
+
 a image .active{
   transform: rotate(90deg);
+}
+
+/* Services page */
+.services{
+  margin-left: -65px;
+  margin-right: -65px;
+}
+
+/* what we do */
+.services > .what-we-do{
+  padding-left: 65px;
+  padding-right: 65px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-top: 100px;
+}
+
+.services .what-we-do h3{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+}
+
+.services .what-we-do div{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.services .what-we-do div a .items{
+  width: 325px;
+  height: 300px; 
+  display: block;
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  background: linear-gradient(90deg, rgba(241, 255, 246, 0.86) 0%, rgba(248, 248, 248, 0.86) 101.67%);
+  box-shadow: 0px 4px 12px rgba(51, 51, 51, 0.1);
+  border-radius: 12px;
+}
+
+.services .what-we-do div a .items:hover{
+  position: relative;
+  bottom: 50px;
+}
+
+.services .what-we-do div .items img{
+  position: relative;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.services .what-we-do div a .items h4{
+  text-align: center; 
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #353135;
+}
+.services .what-we-do div a .items p{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: left;
+  color: #353135;
+}
+.services .what-we-do div a{
+  text-decoration: none;
+}
+
+/* trending books */
+.services .trending{
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 65px;
+}
+.services .trending h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+
+
+
+.services a img{
+  position: relative;
+  left: 625px;
+  background: none;
+  top: 30px; 
 }
