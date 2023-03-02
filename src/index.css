@@ -556,6 +556,9 @@ body{
 
 .footer{
   padding: 40px 65px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer div .terms-and-condition{
@@ -572,3 +575,15 @@ body{
 .footer div .terms-and-condition .terms-text hr{
   width: 20px;
 }
+
+.footer footer{
+  margin-top: 200px;
+  background: #3FD472;
+  color: #ffffff;
+}
+.footer footer .footer-links{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+

@@ -22,14 +22,14 @@ export default function Footer() {
             <i></i>
             <i></i>
         </div>
-        <div>
-            <Link to=""></Link>
-            <Link to=""></Link>
-            <Link to=""></Link>
+        <div className="footer-links">
+            <Link to="">Libraread Group</Link>
+            <Link to="">Privacy Policy</Link>
+            <Link to="">Reviews</Link>
             <select name="" id="">
                 <option value="">EN</option>
             </select>
-            <Link to=""></Link>
+            <Link to="">Terms and Condition</Link>
         </div>
         <hr />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id quo labore aliquid ipsam dolores placeat sed modi quis provident.</p>
