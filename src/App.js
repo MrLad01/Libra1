@@ -20,7 +20,6 @@ import Services from "./pages/Services";
                             <Route path="footer" element={<Footer />} />
                           </Route>
                         </Route>
-                        
                     </Route>  
                 </Route>
              

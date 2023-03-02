@@ -4,6 +4,10 @@ import book1 from "../images/image 16.png";
 import book2 from "../images/image 14.png";
 import book3 from "../images/image 13.png";
 import book4 from "../images/image 12.png";
+import profile1 from "../images/profile1.png";
+import profile2 from "../images/Profile2.png";
+import profile3 from "../images/Profile3.png";
+import profile4 from "../images/Profile4.png";
 
 
 export default function Other() {
@@ -18,7 +22,7 @@ export default function Other() {
                     <option value="">Genre</option>
                 </select>
             </div>
-            <input type="text" />
+            <input type="text" placeholder="Search by name" />
         </div>
         <div className="t-books">
           <div className="t-book">
@@ -106,42 +110,44 @@ export default function Other() {
       </div>
       <div className="reviews-ratings">
         <h2>Reviews and Ratings</h2>
-        <div className="reviews">
-            <img src="" alt="" />
-            <div>
-                <span>Karoline Red</span>
-                <span>Chef</span>
+          <div className="reviews-column">
+              <div className="reviews">
+                  <img src={ profile1 } alt="" />
+                  <div>
+                      <span className="author">Karoline Red</span>
+                      <span className="occupation">Chef</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rem ex nam, corporis repellat adipisci et quod non blanditiis maxime.</p>
+                  <i></i>
+              </div>
+              <div className="reviews">
+                  <img src={ profile2 } alt="" />
+                  <div>
+                      <span className="author">Collins Aloba</span>
+                      <span className="occupation">Teacher</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat, officia quis nobis tempora est aliquid excepturi temporibus explicabo ut.</p>
+                  <i></i>
+              </div>
+              <div className="reviews">
+                  <img src={ profile3 } alt="" />
+                  <div>
+                      <span className="author">Alo Bosede</span>
+                      <span className="occupation">Forex Trader</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam beatae illum, perspiciatis unde eius accusamus veniam architecto nobis deserunt!</p>
+                  <i></i>
+              </div>
+              <div className="reviews">
+                  <img src={ profile4 } alt="" />
+                  <div>
+                      <span className="author">Bill Brown</span>
+                      <span className="occupation">Sales Manager</span>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit.</p>
+                  <i></i>
+              </div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rem ex nam, corporis repellat adipisci et quod non blanditiis maxime.</p>
-            <i></i>
-        </div>
-        <div className="reviews">
-            <img src="" alt="" />
-            <div>
-                <span>Collins Aloba</span>
-                <span>Teacher</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat, officia quis nobis tempora est aliquid excepturi temporibus explicabo ut.</p>
-            <i></i>
-        </div>
-        <div className="reviews">
-            <img src="" alt="" />
-            <div>
-                <span>Alo Bosede</span>
-                <span>Forex Trader</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam beatae illum, perspiciatis unde eius accusamus veniam architecto nobis deserunt!</p>
-            <i></i>
-        </div>
-        <div className="reviews">
-            <img src="" alt="" />
-            <div>
-                <span>Bill Brown</span>
-                <span>Sales Manager</span>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit.</p>
-            <i></i>
-        </div>
       </div>
       <div className="nav-buttons">
         <div></div>
@@ -151,8 +157,10 @@ export default function Other() {
       <hr />
       <div>
         <h3>Have reviews or ratings to give about your favourite book? Enter it below  </h3>
-        <input type="text" />
-        <button>Send</button>
+        <div className="your-review">
+          <textarea name="" id="" cols="60" rows="3"></textarea>
+          <button>Send</button>
+        </div>
       </div>
 
       <NavLink to="footer">
