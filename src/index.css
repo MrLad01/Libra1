@@ -580,6 +580,12 @@ body{
   margin-top: 200px;
   background: #3FD472;
   color: #ffffff;
+  margin-left: -65px;
+  margin-right: -65px;
+  margin-bottom: -40px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-bottom: 40px;
 }
 .footer footer .footer-links{
   display: flex;
