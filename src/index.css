@@ -570,10 +570,14 @@ body{
   display: flex;
   flex-direction: column;
   width: 600px;
-  height: 330px;
+  height: 350px;
+  background-color: hsl(300, 4%, 20%);
+  color: #ffffff;
+  gap: 30px;
 }
 .footer div .terms-and-condition .terms-text hr{
-  width: 20px;
+  width: 60px;
+  margin: 0 auto;
 }
 
 .footer footer{

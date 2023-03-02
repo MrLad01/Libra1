@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="terms-text">
                 <h2>We dedicate time diligently to provide books for you</h2>
                 <hr />
-                <p>Read through our code of conduct and terms of agreement on borrowing of books</p>
+                <h4>Read through our code of conduct and terms of agreement on borrowing of books</h4>
                 <button>Read</button>
             </div>
         </div>
