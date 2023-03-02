@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import book from "../images/Rectangle 15.png"
 
 export default function Footer() {
   return (
     <div className="footer">
       <div>
-        <div>
-            <img src="" alt="" />
-            <div>
+        <div className="terms-and-condition">
+            <img src={ book } alt="" />
+            <div className="terms-text">
                 <h2>We dedicate time diligently to provide books for you</h2>
                 <hr />
                 <p>Read through our code of conduct and terms of agreement on borrowing of books</p>
