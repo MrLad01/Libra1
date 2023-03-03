@@ -368,12 +368,17 @@ body{
   height: 56px;
   border: 1px solid #5E5A5E;
   border-radius: 32px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .others .other .search-bar div select{
   background: none;
   border: none;
+}
+.others .other .search-bar div h3{
+  font-size: 25px;
+  position: relative;
+  top: 30px;
 }
 
 .others .other .search-bar input{
