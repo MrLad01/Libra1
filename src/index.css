@@ -81,6 +81,7 @@ body{
   width: 636px;
   height: 832px;
   margin-top: 40px;
+  margin-bottom: 30px;
 }
 .home1{
   display:flex;
@@ -126,12 +127,7 @@ body{
   background: #19CC56;
   color: #ffffff;
 }
-.home a img{
-  position: relative;
-  left: 541px;
-  background: none;
-  top: 30px; 
-}
+
 
 /* a image:hover{
   transform: rotate(90deg);
@@ -368,7 +364,7 @@ body{
   gap: 90px;
   width: 420px;
   height: 56px;
-  border: 1px solid #5E5A5E;
+  border: 1px solid #AEADAE;
   border-radius: 32px;
   align-items: center;
   justify-content: center;
@@ -387,7 +383,7 @@ body{
 .others .other .search-bar input{
   width: 860px;
   height: 56px;
-  border: 1px solid #5E5A5E;
+  border: 1px solid #AEADAE;
   border-radius: 32px;
   font-size: 18px;
   padding-left: 18px;

@@ -1,6 +1,6 @@
-import { NavLink, Outlet } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import gof from "../images/Rectangle 3.png"
-import arrow from "../images/chevron-down.png"
+
 
 export default function HomeLayout() {
   return (
@@ -17,9 +17,6 @@ export default function HomeLayout() {
         <img src={gof} alt="A girl reading" />
       </div>
 
-      <NavLink to="services"><img src={arrow} alt="" /></NavLink>
-      
-        <Outlet />
     </div>
   )
 }

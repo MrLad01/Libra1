@@ -13,13 +13,12 @@ import Services from "./pages/Services";
            createRoutesFromElements(
                 <Route>
                    <Route path="/" element={<LandingLayout />}>
-                      <Route index element={<HomeLayout />} >
-                      </Route>
-                        <Route path="services" element={<Services />}>
-                          <Route path="others" element={<Other />}>
-                            <Route path="footer" element={<Footer />} />
-                          </Route>
+                      <Route index element={<HomeLayout />} />
+                      <Route path="services" element={<Services />}>
+                         <Route path="others" element={<Other />}>
+                          <Route path="footer" element={<Footer />} />
                         </Route>
+                      </Route>
                     </Route>  
                 </Route>
              
