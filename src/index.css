@@ -524,6 +524,15 @@ body{
   position: relative;
   left: 520px;
 }
+.others .navi .nav-buttons{
+  margin-top: 95px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: relative;
+  left: 400px;
+}
 
 .others hr{
   width: 1200px;

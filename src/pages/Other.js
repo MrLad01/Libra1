@@ -100,12 +100,13 @@ export default function Other() {
           </div>
 
         </div>
-
-        <div className="nav-buttons">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div> 
+        <div className="navi">
+          <div className="nav-buttons">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div> 
+          </div>
         </div>
       </div>
       <div className="reviews-ratings">
