@@ -601,11 +601,25 @@ body{
   letter-spacing: 0em;
   text-align: center;
 }
+.footer div .terms-and-condition .terms-text h4{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 
 .footer div .terms-and-condition .terms-text hr{
-  width: 149.5px;
+  width: 160px;
   border: 2px solid #353135;
-  margin: -10px auto 0 auto;
+  margin: -10px auto 10px auto;
+}
+.footer div .terms-and-condition .terms-text button{
+  padding: 5px 65px;
+  height: 40px;
+  width: 196px;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 .footer footer{
