@@ -381,6 +381,8 @@ body{
   height: 56px;
   border: 1px solid #5E5A5E;
   border-radius: 32px;
+  font-size: 18px;
+  padding-left: 18px;
 }
 
 .others .other .t-books{
