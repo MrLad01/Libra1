@@ -374,6 +374,7 @@ body{
 .others .other .search-bar div select{
   background: none;
   border: none;
+  font-size: 18px; 
 }
 .others .other .search-bar div h3{
   font-size: 25px;
@@ -581,18 +582,18 @@ body{
   margin: 100px auto;
   display: flex;
   flex-direction: row;
-  padding-bottom: 200px;
-  padding-left: 120px;
+  padding-bottom: 150px;
+  padding-left: 100px;
 }
 .footer div .terms-and-condition .terms-text{
   display: flex;
   flex-direction: column;
   width: 600px;
-  height: 300px;
+  height: 270px;
   background-color: #EBEBEBB2;
   color: #353135;
   gap: 30px;
-  padding: 35px 25px;
+  padding: 45px 25px;
 }
 .footer div .terms-and-condition .terms-text h2{
   font-size: 30px;
@@ -620,6 +621,13 @@ body{
   width: 196px;
   border-radius: 10px;
   margin: 0 auto;
+  background-color: #19CC56;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  border: none;
 }
 
 .footer footer{
