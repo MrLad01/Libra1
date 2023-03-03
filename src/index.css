@@ -531,7 +531,7 @@ body{
   flex-direction: row;
   gap: 10px;
   position: relative;
-  left: 400px;
+  left: 410px;
 }
 
 .others hr{
@@ -578,26 +578,38 @@ body{
 }
 
 .footer div .terms-and-condition{
-  margin-top: 100px;
+  margin: 100px auto;
   display: flex;
   flex-direction: row;
+  padding-bottom: 200px;
+  padding-left: 120px;
 }
 .footer div .terms-and-condition .terms-text{
   display: flex;
   flex-direction: column;
   width: 600px;
-  height: 350px;
-  background-color: hsl(300, 4%, 20%);
-  color: #ffffff;
+  height: 300px;
+  background-color: #EBEBEBB2;
+  color: #353135;
   gap: 30px;
+  padding: 35px 25px;
 }
+.footer div .terms-and-condition .terms-text h2{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
 .footer div .terms-and-condition .terms-text hr{
-  width: 60px;
-  margin: 0 auto;
+  width: 149.5px;
+  border: 2px solid #353135;
+  margin: -10px auto 0 auto;
 }
 
 .footer footer{
-  margin-top: 200px;
+  margin-top: 100px;
   background: #3FD472;
   color: #ffffff;
   margin-left: -65px;
