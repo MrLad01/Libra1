@@ -3,13 +3,21 @@ import arrow  from "../images/chevron-down.png";
 import item1 from "../images/item1.png";
 import item2 from "../images/item2.png";
 import item3 from "../images/item3.png";
-import book1 from "../images/image 7.png";
-import book2 from "../images/image 9.png";
-import book3 from "../images/image 11.png";
-import book4 from "../images/image 8.png";
 import Cards from "../component/Cards";
+import data from "../data/data"
 
 export default function Services() {
+
+  const books = data.map(book => {
+    return (
+      <Cards
+      img={book.image}
+      content={book.content}
+      author={book.author}
+      />
+    )
+  })
+
   return (
     <div className="services">
       <div className="what-we-do">  
@@ -42,10 +50,11 @@ export default function Services() {
       <div className="trending">
         <h3>Trending Books</h3>
         <div className="t-books">
-          <Cards img={book1} content="Steal like an artist" author="Austin Kleon" />
+          {/* <Cards img={book1} content="Steal like an artist" author="Austin Kleon" />
           <Cards img={book2} content="Half of a yellow sun" author="Austin Kleon" />
           <Cards img={book3} content="The sun and her flowers" author="Rupi Kaur" />
-          <Cards img={book4} content="Purple Hibicus" author="Chimamanda Adichie" />
+          <Cards img={book4} content="Purple Hibicus" author="Chimamanda Adichie" /> */}
+          {books}
         </div>
 
         <div className="nav-buttons">
