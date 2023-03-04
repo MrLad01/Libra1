@@ -42,22 +42,10 @@ export default function Services() {
       <div className="trending">
         <h3>Trending Books</h3>
         <div className="t-books">
-          <Cards 
-          img={book1}
-          content="Steal like an artist"
-          author="Austin Kleon" />
-          <Cards 
-          img={book2}
-          content="Half of a yellow sun"
-          author="Austin Kleon" />
-          <Cards 
-          img={book3}
-          content="The sun and her flowers"
-          author="Rupi Kaur" />
-          <Cards 
-          img={book4}
-          content="Purple Hibicus"
-          author="Chimamanda Adichie" />
+          <Cards img={book1} content="Steal like an artist" author="Austin Kleon" />
+          <Cards img={book2} content="Half of a yellow sun" author="Austin Kleon" />
+          <Cards img={book3} content="The sun and her flowers" author="Rupi Kaur" />
+          <Cards img={book4} content="Purple Hibicus" author="Chimamanda Adichie" />
         </div>
 
         <div className="nav-buttons">

@@ -26,22 +26,10 @@ export default function Other() {
             <input type="text" placeholder="Search by name" />
         </div>
         <div className="t-books">
-        <Cards 
-        img={book1}
-        content="The Alchemist" 
-        author="Paulo Coelho"/>
-        <Cards 
-        img={book2}
-        content="A confederacy of dunces" 
-        author="John Kennedy T."/>
-        <Cards 
-        img={book3}
-        content="Why we sleep" 
-        author="Matthew Walker"/>
-        <Cards 
-        img={book4}
-        content="An enemy called average" 
-        author="John L.Mason"/>
+        <Cards img={book1} content="The Alchemist" author="Paulo Coelho"/>
+        <Cards img={book2} content="A confederacy of dunces" author="John Kennedy T."/>
+        <Cards img={book3} content="Why we sleep" author="Matthew Walker"/>
+        <Cards img={book4} content="An enemy called average" author="John L.Mason"/>
        
         </div>
         <div className="navi">
