@@ -7,6 +7,7 @@ import book1 from "../images/image 7.png";
 import book2 from "../images/image 9.png";
 import book3 from "../images/image 11.png";
 import book4 from "../images/image 8.png";
+import cards from "../../component/cards";
 
 export default function Services() {
   return (
@@ -41,24 +42,7 @@ export default function Services() {
       <div className="trending">
         <h3>Trending Books</h3>
         <div className="t-books">
-          <div className="t-book">
-            <div className="t-img1">
-                <img src={ book1 } alt="" />
-            </div>
-            <div className="t-content">
-                <h5>Steal like an artist</h5>
-                <h6>Austin Kleon</h6>
-                <div>
-                  <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                  </div>
-                    <button>View details</button>
-                </div>
-            </div>
-          </div>
+          <cards img={book1} />
           <div className="t-book">
             <div className="t-img">
                 <img src={ book2 } alt="" />
