@@ -10,6 +10,7 @@ export default function Services() {
   const items = data2.map(item => {
     return (
       <Item
+      key={item.id}
       img={item.img}
       title={item.title}
       content={item.content}
@@ -19,6 +20,7 @@ export default function Services() {
   const books = data.map(book => {
     return (
       <Cards
+      key={book.id}
       img={book.image}
       content={book.content}
       author={book.author}
