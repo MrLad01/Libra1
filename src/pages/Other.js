@@ -8,6 +8,7 @@ import profile1 from "../images/profile1.png";
 import profile2 from "../images/Profile2.png";
 import profile3 from "../images/Profile3.png";
 import profile4 from "../images/Profile4.png";
+import Cards from "../component/Cards";
 
 
 export default function Other() {
@@ -25,80 +26,23 @@ export default function Other() {
             <input type="text" placeholder="Search by name" />
         </div>
         <div className="t-books">
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book1 } alt="" />
-            </div>
-            <div className="t-content">
-                <h5>The Alchemist</h5>
-                <h6>Paulo Coelho</h6>
-                <div>
-                  <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                  </div>
-                    <button>View details</button>
-                </div>
-            </div>
-          </div>
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book2 } alt="" />
-            </div>
-            <div className="t-content">
-                <h5>A confederacy of dunces</h5>
-                <h6>John Kennedy T.</h6>
-                <div>
-                    <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    </div>
-                    <button>View details</button>
-                </div>
-            </div>
-            
-          </div>
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book3} alt="" />
-            </div>
-            <div className="t-content">
-                <h5>Why we sleep</h5>
-                <h6>Matthew Walker</h6>
-                <div>
-                    <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    </div>
-                    <button>View details</button>
-                </div>
-            </div>
-          </div>
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book4 } alt="" />
-            </div>
-            <div className="t-content">
-                <h5>An enemy called average</h5>
-                <h6>John L.Mason</h6>
-                <div>
-                    <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    </div>
-                    <button>View details</button>
-                </div>
-            </div>
-          </div>
-
+        <Cards 
+        img={book1}
+        content="The Alchemist" 
+        author="Paulo Coelho"/>
+        <Cards 
+        img={book2}
+        content="A confederacy of dunces" 
+        author="John Kennedy T."/>
+        <Cards 
+        img={book3}
+        content="Why we sleep" 
+        author="Matthew Walker"/>
+        <Cards 
+        img={book4}
+        content="An enemy called average" 
+        author="John L.Mason"/>
+       
         </div>
         <div className="navi">
           <div className="nav-buttons">
