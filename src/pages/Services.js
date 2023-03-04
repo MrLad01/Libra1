@@ -42,7 +42,10 @@ export default function Services() {
       <div className="trending">
         <h3>Trending Books</h3>
         <div className="t-books">
-          <cards img={book1} />
+          <cards 
+          img={book1}
+          content="Steal like an artist"
+          author="Austin Kleon" />
           <div className="t-book">
             <div className="t-img">
                 <img src={ book2 } alt="" />

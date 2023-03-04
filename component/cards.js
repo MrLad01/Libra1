@@ -4,11 +4,11 @@ export default function cards({img, content, author}) {
     <div>
         <div className="t-book">
             <div className="t-img1">
-                <img src={ book1 } alt="" />
+                <img src={ img } alt="" />
             </div>
             <div className="t-content">
-                <h5>Steal like an artist</h5>
-                <h6>Austin Kleon</h6>
+                <h5>{ content }</h5>
+                <h6>{ author }</h6>
                 <div>
                   <div className="stars">
                     <i></i>
