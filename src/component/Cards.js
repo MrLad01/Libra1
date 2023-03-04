@@ -1,5 +1,5 @@
 
-export default function cards({img, content, author}) {
+export default function Cards({img, content, author}) {
   return (
     <div>
         <div className="t-book">

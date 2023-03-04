@@ -7,7 +7,7 @@ import book1 from "../images/image 7.png";
 import book2 from "../images/image 9.png";
 import book3 from "../images/image 11.png";
 import book4 from "../images/image 8.png";
-import cards from "../../component/cards";
+import Cards from "../component/Cards";
 
 export default function Services() {
   return (
@@ -42,66 +42,22 @@ export default function Services() {
       <div className="trending">
         <h3>Trending Books</h3>
         <div className="t-books">
-          <cards 
+          <Cards 
           img={book1}
           content="Steal like an artist"
           author="Austin Kleon" />
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book2 } alt="" />
-            </div>
-            <div className="t-content">
-                <h5>Half of a yellow sun</h5>
-                <h6>Austin Kleon</h6>
-                <div>
-                    <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    </div>
-                    <button>View details</button>
-                </div>
-            </div>
-            
-          </div>
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book3} alt="" />
-            </div>
-            <div className="t-content">
-                <h5>The sun and her flowers</h5>
-                <h6>Rupi Kaur</h6>
-                <div>
-                    <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    </div>
-                    <button>View details</button>
-                </div>
-            </div>
-          </div>
-          <div className="t-book">
-            <div className="t-img">
-                <img src={ book4 } alt="" />
-            </div>
-            <div className="t-content">
-                <h5>Purple Hibicus</h5>
-                <h6>Chimamanda Adichie</h6>
-                <div>
-                    <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    </div>
-                    <button>View details</button>
-                </div>
-            </div>
-          </div>
-
+          <Cards 
+          img={book2}
+          content="Half of a yellow sun"
+          author="Austin Kleon" />
+          <Cards 
+          img={book3}
+          content="The sun and her flowers"
+          author="Rupi Kaur" />
+          <Cards 
+          img={book4}
+          content="Purple Hibicus"
+          author="Chimamanda Adichie" />
         </div>
 
         <div className="nav-buttons">
