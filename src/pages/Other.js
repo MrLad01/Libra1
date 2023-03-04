@@ -1,17 +1,25 @@
 import { NavLink, Outlet } from "react-router-dom";
 import arrow from "../images/chevron-down.png"
-import book1 from "../images/image 16.png";
-import book2 from "../images/image 14.png";
-import book3 from "../images/image 13.png";
-import book4 from "../images/image 12.png";
 import profile1 from "../images/profile1.png";
 import profile2 from "../images/Profile2.png";
 import profile3 from "../images/Profile3.png";
 import profile4 from "../images/Profile4.png";
 import Cards from "../component/Cards";
+import data3 from "../data/data3"
 
 
 export default function Other() {
+
+  const books = data3.map(book => {
+    return (
+      <Cards
+      img={book.image}
+      content={book.content}
+      author={book.author}
+      />
+    )
+  })
+
   return (
     <div className="others">
       <div className="other">
@@ -26,11 +34,7 @@ export default function Other() {
             <input type="text" placeholder="Search by name" />
         </div>
         <div className="t-books">
-        <Cards img={book1} content="The Alchemist" author="Paulo Coelho"/>
-        <Cards img={book2} content="A confederacy of dunces" author="John Kennedy T."/>
-        <Cards img={book3} content="Why we sleep" author="Matthew Walker"/>
-        <Cards img={book4} content="An enemy called average" author="John L.Mason"/>
-       
+          {books}
         </div>
         <div className="navi">
           <div className="nav-buttons">
