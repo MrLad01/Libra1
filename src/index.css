@@ -179,6 +179,7 @@ body{
 .services .what-we-do div a .items:hover{
   position: relative;
   bottom: 50px;
+  transition-delay: 2s;
 }
 
 .services .what-we-do div .items img{
@@ -303,16 +304,19 @@ body{
   background: none;
   top: 30px; 
 }
+  .services a img::before{
+    content: "Click and Scroll down";
+  }
 .services a img:hover{
-    animation: dance 3s infinite;
+    animation: dance 2s infinite;
   }
 @keyframes dance{
   0%{
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 
   100%{
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
 }
 
