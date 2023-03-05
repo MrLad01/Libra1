@@ -18,9 +18,9 @@ export default function Footer() {
       <footer>
         <h3>Contact us on:</h3>
         <div>
-            <i></i>
-            <i></i>
-            <i></i>
+            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            <FontAwesomeIcon icon="fa-brands fa-google" />
+            <FontAwesomeIcon icon="fa-brands fa-twitter" />
         </div>
         <div className="footer-links">
             <Link to="">Libraread Group</Link>
