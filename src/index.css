@@ -301,6 +301,16 @@ body{
   left: 625px;
   background: none;
   top: 30px; 
+  animation: dance 2s infinite;
+}
+@keyframes dance{
+  0%{
+    transform: translateY(-10px);
+  }
+
+  100%{
+    transform: translateY(10px);
+  }
 }
 
 .services .nav-buttons{
