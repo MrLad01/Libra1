@@ -3,7 +3,7 @@ import book2 from "../images/image 14.png";
 import book3 from "../images/image 13.png";
 import book4 from "../images/image 12.png";
 
-export default [
+const data3 = [
     {
         id:1,
         image: book1,
@@ -35,3 +35,5 @@ export default [
         author: "John L.Mason"
     }
 ]
+
+export default data3
