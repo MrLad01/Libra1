@@ -4,7 +4,7 @@ import profile3 from "../images/Profile3.png";
 import profile4 from "../images/Profile4.png";
 
 
-export default [
+const data4 = [
     {
         id:1,
         img: profile1,
@@ -42,3 +42,5 @@ export default [
         content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit."
     }
 ]
+
+export default data4
