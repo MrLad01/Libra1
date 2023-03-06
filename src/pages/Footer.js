@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import book from "../images/Rectangle 15.png"
 
+
 export default function Footer() {
   return (
     <div className="footer">
@@ -18,9 +19,9 @@ export default function Footer() {
       <footer>
         <h3>Contact us on:</h3>
         <div>
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
-            <FontAwesomeIcon icon="fa-brands fa-google" />
-            <FontAwesomeIcon icon="fa-brands fa-twitter" />
+            <i className="fa-brands fa-facebook" />
+            <i className="fa-brands fa-google" />
+            <i className="fa-brands fa-twitter" />
         </div>
         <div className="footer-links">
             <Link to="">Libraread Group</Link>
