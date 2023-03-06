@@ -3,7 +3,7 @@ import item2 from "../images/item2.png";
 import item3 from "../images/item3.png";
 
 
-export default [
+const data2 = [
     {
         id:1,
         img: item3,
@@ -23,3 +23,5 @@ export default [
         content:"Our efficient delivery service gets your books to your doorstep saving you some energy to read",
     }
 ]
+
+export default data2
