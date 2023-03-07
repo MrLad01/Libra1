@@ -13,11 +13,11 @@ import LogIn from "./pages/LogIn";
 
          const router = createBrowserRouter(
            createRoutesFromElements(
-                <Route>
+             <Route>
+                  <Route path="sign-up" element={<SignUp />} />
+                  <Route path="log-in" element={<LogIn />} />
                    <Route path="/" element={<LandingLayout />}>
                       <Route index element={<HomeLayout />} />
-                      <Route path="sign-up" element={<SignUp />} />
-                      <Route path="log-in" element={<LogIn />} />
                       <Route path="services" element={<Services />}>
                          <Route path="others" element={<Other />}>
                           <Route path="footer" element={<Footer />} />
