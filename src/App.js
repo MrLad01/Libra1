@@ -14,6 +14,8 @@ import Services from "./pages/Services";
                 <Route>
                    <Route path="/" element={<LandingLayout />}>
                       <Route index element={<HomeLayout />} />
+                      <Route index element={<SignUp />} />
+                      <Route index element={<LogIn />} />
                       <Route path="services" element={<Services />}>
                          <Route path="others" element={<Other />}>
                           <Route path="footer" element={<Footer />} />
