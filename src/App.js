@@ -7,6 +7,8 @@ import LandingLayout from "./Layout/LandingLayout";
 import Footer from "./pages/Footer";
 import Other from "./pages/Other";
 import Services from "./pages/Services";
+import SignUp from "./pages/SignUp";
+import LogIn from "./pages/LogIn";
 
 
          const router = createBrowserRouter(
@@ -14,8 +16,8 @@ import Services from "./pages/Services";
                 <Route>
                    <Route path="/" element={<LandingLayout />}>
                       <Route index element={<HomeLayout />} />
-                      <Route index element={<SignUp />} />
-                      <Route index element={<LogIn />} />
+                      <Route path="sign-up" element={<SignUp />} />
+                      <Route path="log-in" element={<LogIn />} />
                       <Route path="services" element={<Services />}>
                          <Route path="others" element={<Other />}>
                           <Route path="footer" element={<Footer />} />
