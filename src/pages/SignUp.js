@@ -24,7 +24,7 @@ export default function SignUp() {
                     <Link><i></i></Link>
                 </div>
             </div>  
-            <h4>New member? <Link to="sign-up">Sign Up</Link></h4>
+            <h4>Already a member? <Link to="/log-in">Log In</Link></h4>
       </div>
     </div>
   )

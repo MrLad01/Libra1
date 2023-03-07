@@ -22,7 +22,7 @@ export default function LogIn() {
                     <Link><i></i></Link>
                 </div>
             </div>  
-            <h4>New member? <Link to="sign-up">Sign Up</Link></h4>
+            <h4>New member? <Link to="/sign-up">Sign Up</Link></h4>
       </div>
     </div>
   )
