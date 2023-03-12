@@ -672,6 +672,7 @@ body{
   padding-bottom: 5px;
   font-size: 16px;
   border: 0 0 1px 0;
+  border-color: #353135;
 }
 .page-content .inputs label{
   font-size: 24px;
