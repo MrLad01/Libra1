@@ -691,5 +691,8 @@ body{
   text-decoration: none;
   color: #32B5FF;
 }
+.page-content button{
+  margin: 40px auto 94px;
+}
 
 
