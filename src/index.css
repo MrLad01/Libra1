@@ -652,6 +652,7 @@ body{
   height: 720px;
   background-color: #ffffff;
   border-radius: 18px;
+  box-shadow: 0px 6px 8px rgba(51, 51, 51, 0.1);
 }
 /* .page-content{
   margin: auto; 
@@ -663,7 +664,7 @@ body{
   font-size: 36px;
 }
 .page-content .inputs{
-  width: 416px;
+  width: 408px;
   margin: auto; 
 }
 .page-content .inputs input{
@@ -684,6 +685,11 @@ body{
 .page-content .inputs h5{
   margin-top: -30px;
   text-align: right;
+  font-size: 16px;
+}
+.page-content .inputs h5 a{
+  text-decoration: none;
+  color: #32B5FF;
 }
 
 
