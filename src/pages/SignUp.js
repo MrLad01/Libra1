@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Form } from "react-router-dom"
 
 export default function SignUp() {
   return (
@@ -6,16 +6,18 @@ export default function SignUp() {
       <img src="" alt="" />
       <div className="background">
             <h2>SIGN UP</h2>
-            <div className="inputs">
-                <label htmlFor=""> Email</label>
-                <input type="text" placeholder="Enter E-mail" />
-                <label htmlFor=""> Password</label>
-                <input type="text" placeholder="Enter Password" />
-                <label htmlFor=""> Confirm Password</label>
-                <input type="text" placeholder="Enter Password again" />
-                <h5><Link>Forgot password?</Link></h5>
-            </div>
-            <button>Sign Up</button>
+            <Form>
+              <div className="inputs">
+                  <label htmlFor="email"> Email</label>
+                  <input type="text" placeholder="Enter E-mail" id="email" name="email" />
+                  <label htmlFor="password"> Password</label>
+                  <input type="text" placeholder="Enter Password" id="password" name="password" />
+                  <label htmlFor="copassword"> Confirm Password</label>
+                  <input type="text" placeholder="Enter Password again" id="copassword" name="copassword" />
+                  <h5><Link>Forgot password?</Link></h5>
+              </div>
+              <button>Sign Up</button>
+            </Form>
             <div>
                 <h5>Or login using</h5>
                 <div>

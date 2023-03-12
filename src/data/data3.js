@@ -33,6 +33,12 @@ const data3 = [
         image: book4,
         content:"An enemy called average",
         author: "John L.Mason"
+    },
+    {
+        id:5,
+        image: book4,
+        content:"An enemy called average",
+        author: "John L.Mason"
     }
 ]
 

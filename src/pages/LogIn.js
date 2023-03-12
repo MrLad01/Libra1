@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link, Form } from "react-router-dom"
+
 
 export default function LogIn() {
   return (
@@ -6,14 +7,16 @@ export default function LogIn() {
       <img src="" alt="" />
       <div className="background">
             <h2>LOG IN</h2>
-            <div className="inputs">
-                <label htmlFor=""> Email</label>
-                <input type="text" placeholder="Enter E-mail" />
-                <label htmlFor=""> Password</label>
-                <input type="text" placeholder="Enter Password" />
-                <h5><Link>Forgot password?</Link></h5>
-            </div>
-            <button>Log In</button>
+            <Form>
+              <div className="inputs">
+                  <label htmlFor="email"> Email</label>
+                  <input type="text" placeholder="Enter E-mail" id="email" name="email" />
+                  <label htmlFor="password"> Password</label>
+                  <input type="text" placeholder="Enter Password" id="password" name="password" />
+                  <h5><Link>Forgot password?</Link></h5>
+              </div>
+              <button>Log In</button>
+            </Form>
             <div>
                 <h5>Or login using</h5>
                 <div>
