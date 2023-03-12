@@ -658,7 +658,7 @@ body{
 .page-content h2{
   text-align: center;
   padding-top: 32px;
-  /* padding-bottom: 40px; */
+  padding-bottom: 40px;
   font-size: 36px;
 }
 .page-content .inputs{
@@ -667,7 +667,13 @@ body{
 }
 .page-content .inputs input{
   width: 100%;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 .page-content .inputs label{
-  padding-top: 40px;
+  font-size: 24px;
 }
+
+
