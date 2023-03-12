@@ -646,3 +646,9 @@ body{
     font-size: 16px;
     color: #ffffff;
   }
+.background{
+  margin: 35px auto;
+  width: 636px;
+  height: 720px;
+  background-color: #ffffff;
+}
