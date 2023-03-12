@@ -669,10 +669,9 @@ body{
   width: 100%;
   margin-bottom: 40px;
   margin-top: 8px;
+  padding-top: 10px;
   padding-bottom: 8px;
   font-size: 16px;
-  /* border: 0 0 1px 0;
-  border-color: #353135; */
   border-top: 1px;
   border-left: 1px;
   border-right: 1px;
