@@ -691,8 +691,23 @@ body{
   text-decoration: none;
   color: #32B5FF;
 }
-.page-content button{
+.page-content .button1{
   margin: 40px auto 94px;
+  background-color: #19CC56;
+  color:#ffffff;
+  border: none;
+  font-size: 28px;
+  padding: 10px 55px;
+  border-radius: 16px;
+}
+.page-content .button2{
+  margin: 40px auto 94px;
+  background-color: #19CC56;
+  color:#ffffff;
+  border: none;
+  font-size: 28px;
+  padding: 10px 55px;
+  border-radius: 16px;
 }
 
 

@@ -16,7 +16,7 @@ export default function LogIn() {
                     <input type="text" placeholder="Enter Password" id="password" name="password" />
                     <h5><Link>Forgot password?</Link></h5>
                 </div>
-                <button>Log In</button>
+                <button className="button2">Log In</button>
               </Form>
               <div>
                   <h5>Or login using</h5>
