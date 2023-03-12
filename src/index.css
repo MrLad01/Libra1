@@ -652,3 +652,22 @@ body{
   height: 720px;
   background-color: #ffffff;
 }
+/* .page-content{
+  margin: auto; 
+} */
+.page-content h2{
+  text-align: center;
+  padding-top: 32px;
+  /* padding-bottom: 40px; */
+  font-size: 36px;
+}
+.page-content .inputs{
+  width: 416px;
+  margin: auto; 
+}
+.page-content .inputs input{
+  width: 100%;
+}
+.page-content .inputs label{
+  padding-top: 40px;
+}
