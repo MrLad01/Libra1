@@ -671,6 +671,7 @@ body{
   margin-top: 8px;
   padding-bottom: 5px;
   font-size: 16px;
+  border: 0 1px 0;
 }
 .page-content .inputs label{
   font-size: 24px;
