@@ -680,5 +680,9 @@ body{
 .page-content .inputs label{
   font-size: 24px;
 }
+.page-content .inputs h5{
+  margin-top: -30px;
+  text-align: right;
+}
 
 

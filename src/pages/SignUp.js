@@ -15,7 +15,7 @@ export default function SignUp() {
                     <input type="text" placeholder="Enter Password" id="password" name="password" />
                     <label htmlFor="copassword"> Confirm Password</label>
                     <input type="text" placeholder="Enter Password again" id="copassword" name="copassword" />
-                    <h5><Link>Forgot password?</Link></h5>
+                    {/* <h5><Link>Forgot password?</Link></h5> */}
                 </div>
                 <button>Sign Up</button>
               </Form>
