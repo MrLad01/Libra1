@@ -697,8 +697,9 @@ body{
   color:#ffffff;
   border: none;
   font-size: 28px;
-  padding: 10px 55px;
+  padding: 10px 0;
   border-radius: 16px;
+  width: 194px;
 }
 .page-content .button2{
   margin: 40px auto 94px;
@@ -706,8 +707,9 @@ body{
   color:#ffffff;
   border: none;
   font-size: 28px;
-  padding: 10px 55px;
+  padding: 10px 0;
   border-radius: 16px;
+  width: 194px;
 }
 
 
