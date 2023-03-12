@@ -651,6 +651,7 @@ body{
   width: 636px;
   height: 720px;
   background-color: #ffffff;
+  border-radius: 18px;
 }
 /* .page-content{
   margin: auto; 
