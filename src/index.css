@@ -662,9 +662,10 @@ body{
   padding-top: 32px;
   padding-bottom: 40px;
   font-size: 36px;
+  font-family: Lexend;
 }
 .page-content .inputs{
-  width: 408px;
+  width: 412px;
   margin: auto; 
 }
 .page-content .inputs input{
@@ -678,14 +679,17 @@ body{
   border-left: 1px;
   border-right: 1px;
   border-color: #5E5A5E;
+  font-family: Lexend;
 }
 .page-content .inputs label{
   font-size: 24px;
+  font-family: Lexend;
 }
 .page-content .inputs h5{
   margin-top: -30px;
   text-align: right;
   font-size: 16px;
+  font-family: Lexend;
 }
 .page-content .inputs h5 a{
   text-decoration: none;
@@ -701,11 +705,12 @@ body{
   border-radius: 16px;
   width: 194px;
   position: relative;
-  left: 32%;
-  }
+  left: 34%;
+  font-family: Lexend;
+}
 
 .page-content .button2{
-  margin: 10px auto 94px;
+  margin: 10px auto 56px;
   background-color: #19CC56;
   color:#ffffff;
   border: none;
@@ -714,7 +719,13 @@ body{
   border-radius: 16px;
   width: 194px;
   position: relative;
-  left: 32%;
+  left: 34%;
+  font-family: Lexend;
 }
 
+.page-content div h5{
+  font-size: 20px;
+  text-align: center;
+  font-family: Lexend;
+}
 
