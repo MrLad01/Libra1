@@ -659,8 +659,8 @@ body{
 } */
 .page-content h2{
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 40px;
+  padding-top: 26px;
+  padding-bottom: 30px;
   font-size: 36px;
   font-family: Lexend;
 }
@@ -670,7 +670,7 @@ body{
 }
 .page-content .inputs input{
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-top: 8px;
   padding-top: 10px;
   padding-bottom: 8px;
@@ -686,7 +686,7 @@ body{
   font-family: Lexend;
 }
 .page-content .inputs h5{
-  margin-top: -30px;
+  margin-top: -20px;
   text-align: right;
   font-size: 16px;
   font-family: Lexend;
@@ -710,7 +710,7 @@ body{
 }
 
 .page-content .button2{
-  margin: 10px auto 56px;
+  margin: 10px auto 36px;
   background-color: #19CC56;
   color:#ffffff;
   border: none;
@@ -727,5 +727,18 @@ body{
   font-size: 20px;
   text-align: center;
   font-family: Lexend;
+  color: grey;
+  font-weight: 500;
+}
+.page-content h4{
+  font-size: 20px;
+  text-align: center;
+  font-family: Lexend;
+  color: grey;
+  font-weight: 500;
+}
+.page-content h4 a{
+  text-decoration: none;
+  color: #32B5FF;
 }
 
