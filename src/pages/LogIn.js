@@ -1,4 +1,13 @@
 import { Link, Form } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+
+{/* <FontAwesomeIcon icon={solid('user-secret')} />
+<FontAwesomeIcon icon={regular('coffee')} />
+<FontAwesomeIcon icon={icon({name: 'coffee', style: 'solid'})} />
+<FontAwesomeIcon icon={brands('twitter')} /> */}
+
 
 
 export default function LogIn() {
@@ -21,7 +30,7 @@ export default function LogIn() {
               <div>
                   <h5>Or login using</h5>
                   <div>
-                      <Link><i></i></Link>
+                      <Link><FontAwesomeIcon icon={brands('twitter')} /></Link>
                       <Link><i></i></Link>
                       <Link><i></i></Link>
                   </div>
