@@ -10,36 +10,41 @@ const data4 = [
         img: profile1,
         author:"Karoline Red",
         occupation:"Chef",
-        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rem ex nam, corporis repellat adipisci et quod non blanditiis maxime."
-        },
+        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rem ex nam, corporis repellat adipisci et quod non blanditiis maxime.",
+        rating: 4
+    },
     {
         id:2,
         img: profile2,
         author:"Collins Aloba",
         occupation:"Teacher",
-        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat, officia quis nobis tempora est aliquid excepturi temporibus explicabo ut."
-        },
+        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat, officia quis nobis tempora est aliquid excepturi temporibus explicabo ut.",
+        rating: 3
+    },
     {
         id:3,
         img: profile3,
         author:"Alo Bosede",
         occupation:"Forex Trader",
-        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam beatae illum, perspiciatis unde eius accusamus veniam architecto nobis deserunt!"
+        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam beatae illum, perspiciatis unde eius accusamus veniam architecto nobis deserunt!",
+        rating: 5
     }
-        ,
+    ,
     {
         id:4,
         img: profile4,
         author:"Bill Brown",
         occupation:"Sales Manager",
-        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit."
+        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit.",
+        rating: 4
     } ,
     {
         id:5,
         img: profile4,
         author:"Bill Brown",
         occupation:"Sales Manager",
-        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit."
+        content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere iusto repudiandae nobis, cupiditate totam. Officia, nostrum? Ea, amet fugit.",
+        rating: 4
     }
 ]
 
