@@ -16,9 +16,9 @@ export default function LogIn() {
               <Form>
                 <div className="inputs">
                     <label htmlFor="email"> Email</label>
-                    <input type="text" placeholder="Enter E-mail" id="email" name="email" />
+                    <input type="email" placeholder="Enter E-mail" id="email" name="email" />
                     <label htmlFor="password"> Password</label>
-                    <input type="text" placeholder="Enter Password" id="password" name="password" />
+                    <input type="password" placeholder="Enter Password" id="password" name="password" />
                     <h5><Link>Forgot password?</Link></h5>
                 </div>
                 <button className="button1">Log In</button>
