@@ -286,6 +286,13 @@ body{
   gap: 30px;
   margin-top: 20px;
 }
+.t-books .t-book .t-content div .stars{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 12px;
+  margin-left: 20px;
+}
 .t-books .t-book .t-content div button{
   background-color: #19CC56;
   color: #ffffff;

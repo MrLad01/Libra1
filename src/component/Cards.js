@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function Cards({img, content, author, rating}) {
   return (
@@ -11,7 +13,10 @@ export default function Cards({img, content, author, rating}) {
                 <h6>{ author }</h6>
                 <div>
                   <div className="stars">
-                    { rating }
+                     <FontAwesomeIcon icon="fa-solid fa-star" style={{color: "#FFD200"}} /> 
+                     <FontAwesomeIcon icon="fa-solid fa-star" style={{color: "#FFD200"}} /> 
+                     <FontAwesomeIcon icon="fa-solid fa-star" style={{color: "#FFD200"}} />
+                     <FontAwesomeIcon icon="fa-solid fa-star" style={{color: "#FFD200"}} />
                   </div>
                     <button>View details</button>
                 </div>
