@@ -26,14 +26,9 @@ export default function LogIn() {
               <div>
                   <h5>Or login using</h5>
                   <div className="login-icons">
-                      {/* <Link to="/"><FontAwesomeIcon 
-                                    icon="fa-brands fa-twitter"  
-                                    style={{color: "red"}}/></Link> */}
                       <Link to="/"><img src={facebook} alt="" /></Link>
                       <Link to="/"><img src={google} alt="" /></Link>
                       <Link to="/"><img src={twitter} alt="" /></Link>
-                      {/* <Link to="/"><FontAwesomeIcon icon="fa-brands fa-google" /></Link>
-                      <Link to="/"><FontAwesomeIcon icon="fa-brands fa-facebook" /></Link> */}
                   </div>
               </div>  
               <h4>New member? <Link to="/sign-up">Sign Up</Link></h4>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import book from "../images/Rectangle 15.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 export default function Footer() {
@@ -19,9 +20,9 @@ export default function Footer() {
       <footer>
         <h3>Contact us on:</h3>
         <div>
-            <i className="fa-brands fa-facebook" />
-            <i className="fa-brands fa-google" />
-            <i className="fa-brands fa-twitter" />
+             <Link to="/"><FontAwesomeIcon icon="fa-brands fa-facebook" style={{color: "white"}} /></Link>
+             <Link to="/"><FontAwesomeIcon icon="fa-brands fa-google" style={{color: "white"}} /></Link>
+             <Link to="/"><FontAwesomeIcon icon="fa-brands fa-twitter" style={{color: "white"}}/></Link>
         </div>
         <div className="footer-links">
             <Link to="">Libraread Group</Link>
