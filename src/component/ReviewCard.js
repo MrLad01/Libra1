@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function ReviewCard({img, author, occupation, content, rating}) {
   return (
@@ -9,7 +10,7 @@ export default function ReviewCard({img, author, occupation, content, rating}) {
                       <span className="occupation">{ occupation }</span>
                   </div>
                   <p>{ content }</p>
-                  { rating }
+                  <div className='stars'><FontAwesomeIcon icon="fa-solid fa-star" style={{color: "#FFD200"}} /> { rating } </div>
               </div>
     </div>
   )
