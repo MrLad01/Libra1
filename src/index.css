@@ -741,4 +741,17 @@ body{
   text-decoration: none;
   color: #32B5FF;
 }
+.page-content .login-icons{  
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 20px auto 60px;
+  position: relative;
+  left: 32%;
+}
+.page-content .login-icons{  
+  font-size: 40px;
+  color: grey;
+  font-weight: 300;
+}
 

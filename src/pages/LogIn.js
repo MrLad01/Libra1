@@ -22,10 +22,10 @@ export default function LogIn() {
               </Form>
               <div>
                   <h5>Or login using</h5>
-                  <div>
-                      <Link><FontAwesomeIcon icon="fa-brands fa-twitter" /></Link>
-                      <Link><i></i></Link>
-                      <Link><i></i></Link>
+                  <div className="login-icons">
+                      <Link to="/"><FontAwesomeIcon icon="fa-brands fa-twitter" /></Link>
+                      <Link to="/"><FontAwesomeIcon icon="fa-brands fa-google" /></Link>
+                      <Link to="/"><FontAwesomeIcon icon="fa-brands fa-facebook" /></Link>
                   </div>
               </div>  
               <h4>New member? <Link to="/sign-up">Sign Up</Link></h4>

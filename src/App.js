@@ -11,9 +11,9 @@ import SignUp from "./pages/SignUp";
 import LogIn from "./pages/LogIn";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faFontAwesome, faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
-library.add(fas, faTwitter, faFontAwesome)
+library.add(fas, faTwitter, faFontAwesome, faGoogle, faFacebook)
 
 
 
