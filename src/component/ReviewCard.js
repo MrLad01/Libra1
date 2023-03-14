@@ -1,5 +1,5 @@
 
-export default function ReviewCard({img, author, occupation, content}) {
+export default function ReviewCard({img, author, occupation, content, rating}) {
   return (
     <div>
         <div className="reviews">
@@ -9,7 +9,7 @@ export default function ReviewCard({img, author, occupation, content}) {
                       <span className="occupation">{ occupation }</span>
                   </div>
                   <p>{ content }</p>
-                  <i></i>
+                  { rating }
               </div>
     </div>
   )

@@ -1,5 +1,5 @@
 
-export default function Cards({img, content, author}) {
+export default function Cards({img, content, author, rating}) {
   return (
     <div>
         <div className="t-book">
@@ -11,10 +11,7 @@ export default function Cards({img, content, author}) {
                 <h6>{ author }</h6>
                 <div>
                   <div className="stars">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
+                    { rating }
                   </div>
                     <button>View details</button>
                 </div>
