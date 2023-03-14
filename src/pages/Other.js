@@ -28,6 +28,7 @@ export default function Other() {
       img={book.image}
       content={book.content}
       author={book.author}
+      rating={book.rating}
       />
     )
   })
