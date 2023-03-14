@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
       <footer>
         <h3>Contact us on:</h3>
-        <div>
+        <div className="footer-icons"> 
              <Link to="/"><FontAwesomeIcon icon="fa-brands fa-facebook" style={{color: "white"}} /></Link>
              <Link to="/"><FontAwesomeIcon icon="fa-brands fa-google" style={{color: "white"}} /></Link>
              <Link to="/"><FontAwesomeIcon icon="fa-brands fa-twitter" style={{color: "white"}}/></Link>

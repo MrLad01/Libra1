@@ -642,9 +642,10 @@ body{
   height: 56px;
   width: 651px;
 }
-  .footer footer i{
-    font-size: 16px;
+  .footer footer .footer-icons a{
+    font-size: 40px;
     color: #ffffff;
+    margin-left: 40px;
   }
 .background{
   margin: 35px auto;
