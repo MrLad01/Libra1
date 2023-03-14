@@ -24,12 +24,13 @@ export default function Services() {
       img={book.image}
       content={book.content}
       author={book.author}
+      rating={book.rating}
       />
-    )
-  })
-
-  return (
-    <div className="services">
+      )
+    })
+    
+    return (
+      <div className="services">
       <div className="what-we-do">  
         <h3>What We Do</h3>
         <div>

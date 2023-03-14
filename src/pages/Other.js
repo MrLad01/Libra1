@@ -16,6 +16,7 @@ export default function Other() {
       author={review.author}
       occupation={review.occupation}
       content={review.content}
+      rating={review.rating}
       />
     )
   })
