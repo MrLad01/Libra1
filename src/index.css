@@ -749,6 +749,14 @@ body{
   position: relative;
   left: 32%;
 }
+.page-content .login-icons2{  
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 20px auto 40px;
+  position: relative;
+  left: 32%;
+}
 .page-content .login-icons{  
   font-size: 40px;
 }

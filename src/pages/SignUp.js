@@ -25,7 +25,7 @@ export default function SignUp() {
               </Form>
               <div>
                   <h5>Or login using</h5>
-                  <div>
+                  <div className="login-icons2">
                       <Link to="/"><img src={facebook} alt="" /></Link>
                       <Link to="/"><img src={google} alt="" /></Link>
                       <Link to="/"><img src={twitter} alt="" /></Link>
