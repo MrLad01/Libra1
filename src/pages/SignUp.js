@@ -1,4 +1,8 @@
 import { Link, Form } from "react-router-dom"
+import facebook from "../Icons/icons8-facebook.svg"
+import google from "../Icons/icons8-google.svg"
+import twitter from "../Icons/icons8-twitter.svg"
+
 
 export default function SignUp() {
   return (
@@ -22,9 +26,9 @@ export default function SignUp() {
               <div>
                   <h5>Or login using</h5>
                   <div>
-                      <Link><i></i></Link>
-                      <Link><i></i></Link>
-                      <Link><i></i></Link>
+                      <Link to="/"><img src={facebook} alt="" /></Link>
+                      <Link to="/"><img src={google} alt="" /></Link>
+                      <Link to="/"><img src={twitter} alt="" /></Link>
                   </div>
               </div>  
               <h4>Already a member? <Link to="/log-in">Log In</Link></h4>
