@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import gof from "../images/Rectangle 3.png"
+import { motion } from "framer-motion"
 
 
 export default function HomeLayout() {
