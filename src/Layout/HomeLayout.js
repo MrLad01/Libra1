@@ -19,7 +19,7 @@ export default function HomeLayout() {
             <NavLink to="contact">Contact Us</NavLink>
           </div>
         </motion.div>
-        <motion.img  variants={slideIn("left", "tween", 1, 2)}  src={gof} alt="A girl reading" />
+        <motion.img  variants={slideIn("right", "tween", 1, 2)}  src={gof} alt="A girl reading" />
       </div>
 
     </div>
