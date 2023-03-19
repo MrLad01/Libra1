@@ -14,7 +14,7 @@ export default function HomeLayout() {
           <motion.div
             initial={{opacity: 0, x: '-100vw'}}
             animate={{opacity: 1, x: 0}}
-            transition={{delay: 0.5, duration: 3, type: 'spring'}}
+            transition={{delay: 0.5, duration: 5, type: 'spring'}}
            className="home-text">
             <p className="first-text">Studying books, a long lasting way to changing lives</p>
             <p className="second-text">We relieve you to a great deal by sourcing books for you to lend, read and change your lives. We are always ready to help</p>
