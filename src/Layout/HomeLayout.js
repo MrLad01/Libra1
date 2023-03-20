@@ -13,7 +13,7 @@ export default function HomeLayout() {
 
         >
           <motion.div
-            variants={slideIn("left", "tween", 0.1, 3)}
+            variants={slideIn("left", "tween", 0.5, 3)}
             initial="hidden"
             animate="show"
 
@@ -31,7 +31,7 @@ export default function HomeLayout() {
           </motion.div>
         </motion.div>
         <motion.div 
-          variants={slideIn("right", "spring", 0.1, 4)}
+          variants={slideIn("right", "spring", 0.5, 4)}
           initial="hidden"
           animate="show"
         >  
