@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom"
 import gof from "../images/Rectangle 3.png"
 import { motion } from "framer-motion"
-import { slideIn } from "../utils/motion"
-import { textVariant } from "../utils/motion"
+import { buttonVariant, slideIn , textVariant} from "../utils/motion"
 
 
 export default function HomeLayout() {
@@ -23,7 +22,7 @@ export default function HomeLayout() {
               variants={textVariant(0.4)}
               className="second-text">We relieve you to a great deal by sourcing books for you to lend, read and change your lives. We are always ready to help</motion.p>
             <motion.div
-              variants={textVariant(0.4)}
+              variants={buttonVariant(0.4)}
             >
               <NavLink to="learn-more">Learn More</NavLink>
               <NavLink to="contact">Contact Us</NavLink>

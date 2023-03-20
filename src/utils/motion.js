@@ -16,6 +16,25 @@ export const textVariant = (delay) => {
     };
   };
   
+export const buttonVariant = (delay) => {
+    return {
+      hidden: {
+        y: 50,
+        opacity: 0,
+      },
+      show: {
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          duration: 5,
+          delay: delay,
+          when: "beforeChildren"
+        },
+      },
+    };
+  };
+  
   export const fadeIn = (direction, type, delay, duration) => {
     return {
       hidden: {
