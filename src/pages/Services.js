@@ -33,13 +33,15 @@ export default function Services() {
   })
   const books = data.map(book => {
     return (
-      <Cards                 
-       key={book.id}
-       img={book.image}
-       content={book.content}
-       author={book.author}
-       rating={book.rating}
-      />
+      <SwiperSlide>
+          <Cards                 
+          key={book.id}
+          img={book.image}
+          content={book.content}
+          author={book.author}
+          rating={book.rating}
+          />
+      </SwiperSlide>
       )
     })
     
@@ -47,9 +49,6 @@ export default function Services() {
       <div className="services">
       <div className="what-we-do">  
         <h3>What We Do</h3>
-        {/* <div>
-          { items }
-        </div> */}
         <Swiper
            modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel]}
             spaceBetween={0}
@@ -61,11 +60,7 @@ export default function Services() {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
          >
-            {/* <SwiperSlide>
-            { items }
-             </SwiperSlide> */}
-             {items}
-             
+             {items}            
         </Swiper>
       </div>
 
@@ -74,20 +69,17 @@ export default function Services() {
         {/* <div className="t-books"> */}
 
         <Swiper
-           modules={[Navigation, Pagination, A11y]}
+           modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel]}
             spaceBetween={50}
             slidesPerView={3}
             navigation
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
+            keyboard={{enabled: true}}
+            mousewheel={{enabled: true}}
          >
-            <SwiperSlide>
                {books}
-             </SwiperSlide>
         </Swiper>
-        <div>
-          {books}
-        </div>
+       
 
         {/* </div> */}
         {/* <div className="t-books">
