@@ -1,3 +1,4 @@
+// import { useState } from "react"
 import { Link, Form } from "react-router-dom"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import facebook from "../Icons/icons8-facebook.svg"
@@ -7,21 +8,38 @@ import twitter from "../Icons/icons8-twitter.svg"
 
 
 export default function LogIn() {
+
+  // const [email, setEmail] = useState(" ")
+  // const [password, setPassword] = useState(" ")
+
+  // const handleChange = (e) => {
+  //   setEmail(e.target.value)
+  //   setPassword(e.target.value)
+  // }
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault
+  //   setEmail(' ')
+  //   setPassword('')
+  // }
+
   return (
     <div>
       <img src="" alt="" />
       <div className="background">
         <div className="page-content">
               <h2>LOG IN</h2>
-              <Form>
+              <Form >
                 <div className="inputs">
                     <label htmlFor="email"> Email</label>
-                    <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
+                    <input type="email" placeholder="Enter E-mail" id="email" name="email" required  />
                     <label htmlFor="password"> Password</label>
                     <input type="password" placeholder="Enter Password" id="password" name="password" required />
                     <h5><Link>Forgot password?</Link></h5>
                 </div>
                 <button className="button1">Log In</button>
+                {/* {email}
+                {password} */}
               </Form>
               <div>
                   <h5>Or login using</h5>
