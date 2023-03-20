@@ -4,6 +4,14 @@ import Cards from "../component/Cards";
 import data3 from "../data/data3";
 import data4 from "../data/data4";
 import ReviewCard from "../component/ReviewCard";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, A11y, Keyboard, Mousewheel, Autoplay} from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/mousewheel';
+import 'swiper/css/autoplay';
+import 'swiper/css/effect-coverflow';
 
 
 export default function Other() {
@@ -23,13 +31,15 @@ export default function Other() {
 
   const books = data3.map(book => {
     return (
-      <Cards
-      key={book.id}
-      img={book.image}
-      content={book.content}
-      author={book.author}
-      rating={book.rating}
-      />
+      <SwiperSlide>
+        <Cards
+        key={book.id}
+        img={book.image}
+        content={book.content}
+        author={book.author}
+        rating={book.rating}
+        />
+      </SwiperSlide>
     )
   })
 
@@ -46,17 +56,18 @@ export default function Other() {
             </div>
             <input type="text" placeholder="Search by name" />
         </div>
-        <div className="t-books">
-          {books}
-        </div>
-        <div className="navi">
-          <div className="nav-buttons">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div> 
-          </div>
-        </div>
+        <Swiper
+           modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={4}
+            pagination={{ clickable: true }}
+            keyboard={{enabled: true}}
+            mousewheel={{enabled: true}}
+            autoplay={{delay: 2500}}
+         >
+               {books}
+        </Swiper>
+        
       </div>
       <div className="reviews-ratings">
         <h2>Reviews and Ratings</h2>

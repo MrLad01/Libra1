@@ -341,15 +341,7 @@ body{
   position: relative;
   left: 410px;
 }
-/* .nav-buttons{
-  margin-top: 88px;
-  margin-bottom: 56px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  position: relative;
-  left: 410px;
-} */
+
 .nav-buttons div{
   width: 86px;
   height: 8px;
@@ -388,6 +380,7 @@ body{
   margin-top: 50px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 65px;
 }
 .others .other .search-bar div{
   display: flex;

@@ -81,7 +81,7 @@ export default function Services() {
             pagination={{ clickable: true }}
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
-            autoplay={{delay: 2000}}
+            autoplay={{delay: 2500}}
          >
                {books}
         </Swiper>
