@@ -193,11 +193,11 @@ body{
   border-radius: 12px;
 }
 
-.services .what-we-do div a .items:hover{
+/* .services .what-we-do div a .items:hover{
   position: relative;
   bottom: 50px;
   transition-delay: 2s;
-}
+} */
 
 .services .what-we-do div .items img{
   position: relative;

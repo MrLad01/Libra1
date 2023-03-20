@@ -51,21 +51,20 @@ export default function Services() {
       <div className="what-we-do">  
         <h3>What We Do</h3>
         <Swiper
-           modules={[Navigation, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow]}
-            spaceBetween={0}
+           modules={[A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow]}
+            spaceBetween={20}
             slidesPerView={3}
-            navigation
             keyboard={{ enabled: true }}
             mousewheel={{enabled: true}}
             effect={"coverflow"}
             grabCursor={true}
            centeredSlides={true}
            coverflowEffect={{
-                 rotate: 50,
+                 rotate: 30,
                  stretch: 0,
-                 depth: 100,
+                 depth: 60,
                  modifier: 1,
-                 slideShadows: true,
+                 slideShadows: false,
         }}
  
          >
@@ -96,12 +95,6 @@ export default function Services() {
           {books}
         </div> */}
 
-        <div className="nav-buttons">
-          <NavLink><div></div></NavLink>
-          <NavLink><div></div></NavLink>
-          <NavLink><div></div></NavLink>
-          <NavLink><div></div></NavLink>
-        </div>
 
       </div>
 
