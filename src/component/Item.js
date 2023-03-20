@@ -4,9 +4,10 @@ import  Tilt  from "react-parallax-tilt"
 export default function Item({img, title, content}) {
   return (
     <div>
-      <Tilt glareEnable={true} tiltMaxAngleX={10} 
-        tiltMaxAngleY={10} perspective={1000} 
-        glareColor={"rgb(255,0,0)"}>
+      <Tilt tiltMaxAngleX={20} 
+        tiltMaxAngleY={20} perspective={1000} 
+        tiltReverse={true}
+        >
         <NavLink to="/">
           <div className="items">
             <img src={ img } alt="" />
