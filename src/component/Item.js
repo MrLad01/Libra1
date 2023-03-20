@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { Tilt } from "react-parallax-tilt"
+import  Tilt  from "react-parallax-tilt"
 
 export default function Item({img, title, content}) {
   return (
