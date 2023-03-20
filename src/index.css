@@ -232,7 +232,6 @@ body{
   line-height: 45px;
   margin-bottom: 60px;
 }
-
 .t-book .t-img img{
   background: none;
   position: relative;
@@ -329,7 +328,6 @@ body{
     transform: translateY(20px);
   }
 }
-
 .services .nav-buttons{
   margin-top: 88px;
   margin-bottom: 56px;
@@ -341,7 +339,6 @@ body{
   position: relative;
   left: 410px;
 }
-
 .nav-buttons div{
   width: 86px;
   height: 8px;
@@ -355,7 +352,6 @@ body{
 .nav-buttons .active{
   background: #19CC56;
 }
-
 .others > .other{
   padding-left: 65px;
   padding-right: 65px;
@@ -364,7 +360,6 @@ body{
   padding-top: 100px;
   padding-bottom: 120px;
 }
-
 .others .other h2{
   text-align: center;
   font-size: 36px;
@@ -372,7 +367,6 @@ body{
   line-height: 45px;
   letter-spacing: 0em;
 }
-
 .others .other .search-bar{
   display: flex;
   flex-direction: row;
@@ -403,7 +397,6 @@ body{
   position: relative;
   top: 30px;
 }
-
 .others .other .search-bar input{
   width: 860px;
   height: 56px;
@@ -412,8 +405,6 @@ body{
   font-size: 18px;
   padding-left: 18px;
 }
-
-
 .others .reviews-ratings{
   padding-left: 35px;
   padding-right: 65px;
@@ -428,7 +419,6 @@ body{
   letter-spacing: 0em;
   margin-bottom: 50px;
 } 
-
 .others .reviews-ratings .reviews{
   width: 250px;
   height: 290px;
@@ -473,7 +463,6 @@ body{
   position: relative;
   top: 10px;
 }
-
 .others .nav-buttons{
   margin-top: 88px;
   margin-bottom: 56px;
@@ -656,9 +645,6 @@ body{
   border-radius: 18px;
   box-shadow: 0px 6px 8px rgba(51, 51, 51, 0.1);
 }
-/* .page-content{
-  margin: auto; 
-} */
 .page-content h2{
   text-align: center;
   padding-top: 26px;
