@@ -25,9 +25,14 @@ export default function HomeLayout() {
           </motion.div>
         </motion.div>
         <motion.div 
-          initial={{x: '100vw'}}
-          animate={{x: 0}}
-          transition={{delay: 0.5, duration: 10, type: 'spring', stiffness: 150}}
+          initial={{x: '100vw', opacity:0}}
+          animate={{x: 0, opacity: 1}}
+          transition={{delay: 1,
+            type:'spring',
+            // duration: 10,
+            stiffness: 10,
+            mass: 4
+          }}
         >  
         {/* //</div>variants={slideIn("right", "tween", 1, 2)} >// */}
           <img src={gof} alt="A girl reading" />
