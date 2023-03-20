@@ -4,8 +4,8 @@ import  Tilt  from "react-parallax-tilt"
 export default function Item({img, title, content}) {
   return (
     <div>
-      <Tilt tiltMaxAngleX={20} 
-        tiltMaxAngleY={20} perspective={1000} 
+      <Tilt tiltMaxAngleX={10} 
+        tiltMaxAngleY={5} perspective={1000} 
         tiltReverse={true}
         >
         <NavLink to="/">
