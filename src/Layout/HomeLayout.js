@@ -15,7 +15,7 @@ export default function HomeLayout() {
             // initial={{opacity: 0, x: '-100vw'}}
             // animate={{opacity: 1, x: 0}}
             // transition={{delay: 0.5, duration: 5, type: 'spring'}}
-            variants={slideIn("left", "tween", 0.25, 3)}
+            variants={slideIn("left", "tween", 0.1, 3)}
             initial="hidden"
             animate="show"
 
@@ -37,7 +37,7 @@ export default function HomeLayout() {
           //   stiffness: 10,
           //   mass: 4
           // }}
-          variants={slideIn("right", "spring", 0.25, 4)}
+          variants={slideIn("right", "spring", 0.1, 4)}
           initial="hidden"
           animate="show"
         >  
