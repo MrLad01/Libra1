@@ -74,8 +74,7 @@ export default function Services() {
 
       <div className="trending">
         <h3>Trending Books</h3>
-        {/* <div className="t-books"> */}
-
+  
         <Swiper
            modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
             spaceBetween={30}
