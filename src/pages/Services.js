@@ -59,6 +59,7 @@ export default function Services() {
             effect={"coverflow"}
             grabCursor={true}
            centeredSlides={true}
+           autoplay={{delay: 2000}}
            coverflowEffect={{
                  rotate: 30,
                  stretch: 0,
@@ -78,23 +79,16 @@ export default function Services() {
 
         <Swiper
            modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
-            spaceBetween={50}
-            slidesPerView={3}
+            spaceBetween={30}
+            slidesPerView={4}
             navigation
             pagination={{ clickable: true }}
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
-            autoplay
+            autoplay={{delay: 2000}}
          >
                {books}
         </Swiper>
-       
-
-        {/* </div> */}
-        {/* <div className="t-books">
-          {books}
-        </div> */}
-
 
       </div>
 
