@@ -21,12 +21,6 @@ const data2 = [
         img: item1,
         title:"Deliver Books",
         content:"Our efficient delivery service gets your books to your doorstep saving you some energy to read",
-    },
-    {
-        id:3,
-        img: item1,
-        title:"Deliver Books",
-        content:"Our efficient delivery service gets your books to your doorstep saving you some energy to read",
     }
 ]
 

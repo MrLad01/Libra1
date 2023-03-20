@@ -58,7 +58,6 @@ export default function Services() {
             mousewheel={{enabled: true}}
             effect={"coverflow"}
             grabCursor={true}
-           centeredSlides={true}
            autoplay={{delay: 2000}}
            coverflowEffect={{
                  rotate: 30,
