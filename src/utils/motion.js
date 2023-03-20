@@ -70,6 +70,7 @@ export const textVariant = (delay) => {
           delay: delay,
           duration: duration,
           ease: "easeOut",
+          when: "beforeChildren"
         },
       },
     };
