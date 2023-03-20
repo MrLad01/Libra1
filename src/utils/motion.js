@@ -27,7 +27,7 @@ export const buttonVariant = (delay) => {
         opacity: 1,
         transition: {
           type: "spring",
-          duration: 5,
+          duration: 6,
           delay: delay,
           when: "beforeChildren"
         },

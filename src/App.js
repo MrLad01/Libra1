@@ -1,7 +1,8 @@
 import { createBrowserRouter,
          RouterProvider,
          createRoutesFromElements, 
-         Route} from "react-router-dom";
+         Route
+        } from "react-router-dom";
 import HomeLayout from "./Layout/HomeLayout";
 import LandingLayout from "./Layout/LandingLayout";
 import Footer from "./pages/Footer";
@@ -13,12 +14,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFontAwesome, faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
+
 library.add(fas, faTwitter, faFontAwesome, faGoogle, faFacebook)
 
 
 
-         const router = createBrowserRouter(
-           createRoutesFromElements(
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
              <Route>
                   <Route path="sign-up" element={<SignUp />} />
                   <Route path="log-in" element={<LogIn />} />
@@ -31,7 +34,6 @@ library.add(fas, faTwitter, faFontAwesome, faGoogle, faFacebook)
                       </Route>
                     </Route>  
                 </Route>
-             
              
            )
          )
