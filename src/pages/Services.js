@@ -4,7 +4,7 @@ import Cards from "../component/Cards";
 import data from "../data/data"
 import data2 from "../data/data2"
 import Item from "../component/Item";
-import { Navigation, Pagination, A11y, Keyboard, Mousewheel } from 'swiper';
+import { Navigation, Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,8 +12,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/mousewheel'
-
+import 'swiper/css/mousewheel';
+import 'swiper/css/autoplay';
+import 'swiper/css/effect-coverflow';
 
 
 export default function Services() {
@@ -50,15 +51,23 @@ export default function Services() {
       <div className="what-we-do">  
         <h3>What We Do</h3>
         <Swiper
-           modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel]}
+           modules={[Navigation, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow]}
             spaceBetween={0}
             slidesPerView={3}
             navigation
-            pagination={{ clickable: true }}
             keyboard={{ enabled: true }}
             mousewheel={{enabled: true}}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            effect={"coverflow"}
+            grabCursor={true}
+           centeredSlides={true}
+           coverflowEffect={{
+                 rotate: 50,
+                 stretch: 0,
+                 depth: 100,
+                 modifier: 1,
+                 slideShadows: true,
+        }}
+ 
          >
              {items}            
         </Swiper>
@@ -69,13 +78,14 @@ export default function Services() {
         {/* <div className="t-books"> */}
 
         <Swiper
-           modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel]}
+           modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
             spaceBetween={50}
             slidesPerView={3}
             navigation
             pagination={{ clickable: true }}
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
+            autoplay
          >
                {books}
         </Swiper>

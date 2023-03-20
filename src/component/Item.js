@@ -1,13 +1,9 @@
 import { NavLink } from "react-router-dom"
-import  Tilt  from "react-parallax-tilt"
+
 
 export default function Item({img, title, content}) {
   return (
-    <div>
-      <Tilt tiltMaxAngleX={10} 
-        tiltMaxAngleY={5} perspective={1000} 
-        tiltReverse={true}
-        >
+    <div> 
         <NavLink to="/">
           <div className="items">
             <img src={ img } alt="" />
@@ -15,7 +11,6 @@ export default function Item({img, title, content}) {
             <p>{ content }</p>
           </div>
           </NavLink>
-        </Tilt>
     </div>
   )
 }
