@@ -20,10 +20,10 @@ export default function HomeLayout() {
            className="home-text">
             <motion.p className="first-text">Studying books, a long lasting way to changing lives</motion.p>
             <motion.p 
-              variants={textVariant(0.5)}
+              variants={textVariant(0.4)}
               className="second-text">We relieve you to a great deal by sourcing books for you to lend, read and change your lives. We are always ready to help</motion.p>
             <motion.div
-              variants={textVariant(0.5)}
+              variants={textVariant(0.4)}
             >
               <NavLink to="learn-more">Learn More</NavLink>
               <NavLink to="contact">Contact Us</NavLink>
