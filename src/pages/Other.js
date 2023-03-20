@@ -18,14 +18,16 @@ export default function Other() {
 
   const reviews = data4.map(review => {
     return (
-      <ReviewCard
-      key={review.id}
-      img={review.img}
-      author={review.author}
-      occupation={review.occupation}
-      content={review.content}
-      rating={review.rating}
-      />
+      <SwiperSlide>
+        <ReviewCard
+        key={review.id}
+        img={review.img}
+        author={review.author}
+        occupation={review.occupation}
+        content={review.content}
+        rating={review.rating}
+        />
+      </SwiperSlide>
     )
   })
 
@@ -71,15 +73,19 @@ export default function Other() {
       </div>
       <div className="reviews-ratings">
         <h2>Reviews and Ratings</h2>
-          <div className="reviews-column">
-              { reviews }
-            </div>
+        <Swiper
+           modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={4}
+            pagination={{ clickable: true }}
+            keyboard={{enabled: true}}
+            mousewheel={{enabled: true}}
+            autoplay={{delay: 2500}}
+         >
+               {reviews}
+        </Swiper>
       </div>
-      <div className="nav-buttons">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+
       <hr />
       <div>
         <h3>Have reviews or ratings to give about your favourite book? Enter it below  </h3>
