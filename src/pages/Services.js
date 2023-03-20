@@ -4,13 +4,12 @@ import Cards from "../component/Cards";
 import data from "../data/data"
 import data2 from "../data/data2"
 import Item from "../component/Item";
-import { Navigation, Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
+import { Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/mousewheel';
 import 'swiper/css/autoplay';
@@ -76,10 +75,9 @@ export default function Services() {
         <h3>Trending Books</h3>
   
         <Swiper
-           modules={[Navigation, Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
+           modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
             spaceBetween={30}
             slidesPerView={4}
-            navigation
             pagination={{ clickable: true }}
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
