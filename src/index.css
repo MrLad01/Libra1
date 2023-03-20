@@ -67,7 +67,7 @@ body{
   font-weight: 600;
   letter-spacing: 0em;
   text-align: left;
-  border-radius: 12px;
+  border-radius: 16px;
   border: 2px solid #19CC56;
   color: #19CC56;
   }
@@ -75,8 +75,9 @@ body{
 .landing > header > div > a:hover{
   background: #19CC56;
   color: #ffffff;
-  border: 1px solid #19CC56;
-  scale: 1.3;
+  scale: 2;
+  transition-duration: 1ms;
+  transition-duration: 1.5s;
 }
 
 .home1 img{
