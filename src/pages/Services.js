@@ -5,6 +5,7 @@ import data from "../data/data"
 import data2 from "../data/data2"
 import Item from "../component/Item";
 import { Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
+import { motion } from "framer-motion"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -48,27 +49,38 @@ export default function Services() {
     return (
       <div className="services">
       <div className="what-we-do">  
-        <h3>What We Do</h3>
-        <Swiper
-           modules={[A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow]}
-            spaceBetween={20}
-            slidesPerView={3}
-            keyboard={{ enabled: true }}
-            mousewheel={{enabled: true}}
-            effect={"coverflow"}
-            grabCursor={true}
-           autoplay={{delay: 2000}}
-           coverflowEffect={{
-                 rotate: 30,
-                 stretch: 0,
-                 depth: 60,
-                 modifier: 1,
-                 slideShadows: false,
-        }}
- 
-         >
-             {items}            
-        </Swiper>
+        <motion.h3
+        initial={{opacity: 0, z: 10}}
+        animate={{opacity: 1, Z: 0}}
+        transition={{delay: 1.5, duration: 1}}
+        >What We Do</motion.h3>
+        <motion.div
+        initial={{opacity: 0, z: 10}}
+        animate={{opacity: 1, Z: 0}}
+        transition={{delay: 3, duration: 1}}
+        
+        >
+            <Swiper
+              modules={[A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow]}
+                spaceBetween={20}
+                slidesPerView={3}
+                keyboard={{ enabled: true }}
+                mousewheel={{enabled: true}}
+                effect={"coverflow"}
+                grabCursor={true}
+              autoplay={{delay: 2000}}
+              coverflowEffect={{
+                    rotate: 30,
+                    stretch: 0,
+                    depth: 60,
+                    modifier: 1,
+                    slideShadows: false,
+            }}
+    
+            >
+                {items}            
+            </Swiper>
+        </motion.div>
       </div>
 
       <div className="trending">
