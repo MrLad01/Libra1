@@ -26,7 +26,7 @@ export default function LogIn() {
   return (
     <div>
       <img src="" alt="" />
-      <div className="background">
+      <div className="form-container">
         <div className="page-content">
               <h2>LOG IN</h2>
               <Form >

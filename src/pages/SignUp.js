@@ -8,7 +8,7 @@ export default function SignUp() {
   return (
     <div>
       <img src="" alt="" />
-      <div className="background">
+      <div className="form-container">
         <div className="page-content">
               <h2>SIGN UP</h2>
               <Form>
