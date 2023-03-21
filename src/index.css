@@ -639,7 +639,7 @@ body{
   }
 .background{
   z-index: 1;
-  background-color: rgba(164,174,168, 0.4);
+  background-color: rgba(164,174,168, 0.2);
   margin-top: -20px;
   padding-top: 40px;
   padding-bottom: 40px;
