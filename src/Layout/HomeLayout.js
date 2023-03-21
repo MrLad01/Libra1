@@ -1,19 +1,11 @@
 import { NavLink } from "react-router-dom"
 import gof from "../images/Rectangle 3.png"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import { buttonVariant, slideIn , textVariant} from "../utils/motion"
 
 
 export default function HomeLayout() {
   return (
-    <AnimatePresence
-    exit={{x: "-100vw", 
-    transition:{ 
-      duration: 1
-    },
-    ease: "easeInOut"
-  }}
-    >
       <motion.div className="home">
         <div className="home1">
           <motion.div 
@@ -47,6 +39,5 @@ export default function HomeLayout() {
         </div>
 
       </motion.div>
-    </AnimatePresence>
   )
 }
