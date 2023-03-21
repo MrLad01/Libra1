@@ -57,7 +57,7 @@ export default function Services() {
         <motion.div
         initial={{opacity: 0, z: 10}}
         animate={{opacity: 1, Z: 0}}
-        transition={{delay: 3, duration: 1}}
+        transition={{delay: 3, duration: 3}}
         
         >
             <Swiper

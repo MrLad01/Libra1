@@ -9,7 +9,9 @@ export default function HomeLayout() {
       <motion.div className="home">
         <div className="home1">
           <motion.div 
-
+          exit={{
+            opacity: 0,
+            transition: {duration: 1, delay: 0.1}}}
           >
             <motion.div
               variants={slideIn("left", "tween", 0.5, 3)}
