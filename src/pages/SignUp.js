@@ -5,6 +5,7 @@ import twitter from "../Icons/icons8-twitter.svg"
 
 
 export default function SignUp() {
+
   return (
     <div>
       <img src="" alt="" />

@@ -34,8 +34,8 @@ export default function LandingLayout() {
             <NavLink to="help">Help</NavLink>
         </nav>
         <div>
-            <NavLink to="sign-up" onClick={loginClick}>Sign Up</NavLink>
-            <NavLink to="log-in" onClick={loginClick}>Log In</NavLink>
+            <NavLink to="sign-up" onClick={loginClick} loginModal={loginModal}>Sign Up</NavLink>
+            <NavLink to="log-in" onClick={loginClick} loginModal={loginModal}>Log In</NavLink>
         </div>
       </motion.header>
       <main>
