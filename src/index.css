@@ -63,11 +63,18 @@ body{
   width: 100px;
   margin-top: -8px;
   background: none;
+  outline: none;
 }
 .landing >header > nav> select:hover{
   scale: 1.1;
   transition-duration: 0.5s;
   transition-delay: 1ms;
+  outline: none;
+  border: none;
+}
+.landing >header > nav> select > option{
+  border: none;
+  outline: none;
 }
 .landing > header > div > a{
   text-decoration: none;
