@@ -1,19 +1,19 @@
 import { NavLink, Outlet } from "react-router-dom";
 import Frame304 from '../images/Frame304.png';
 import { motion } from "framer-motion";
-import { useState } from "react";
 
-export default function LandingLayout() {
 
-  const [loginModal, setLoginModal] = useState(false);
+export default function LandingLayout({ loginClick }) {
+
+  // const [loginModal, setLoginModal] = useState(false);
  
 
 
 
-  const loginClick = () => {
-    setLoginModal(!loginModal)
-    console.log("log in")
-  }
+  // const loginClick = () => {
+  //   setLoginModal(!loginModal)
+  //   console.log("log in")
+  // }
 
   return (
     <div className="landing">
@@ -34,8 +34,8 @@ export default function LandingLayout() {
             <NavLink to="help">Help</NavLink>
         </nav>
         <div>
-            <NavLink to="sign-up" onClick={loginClick} loginModal={loginModal}>Sign Up</NavLink>
-            <NavLink to="log-in" onClick={loginClick} loginModal={loginModal}>Log In</NavLink>
+            <NavLink to="sign-up" onClick={loginClick} >Sign Up</NavLink>
+            <NavLink to="log-in" onClick={loginClick} >Log In</NavLink>
         </div>
       </motion.header>
       <main>

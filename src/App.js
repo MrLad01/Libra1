@@ -13,6 +13,7 @@ import LogIn from "./pages/LogIn";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFontAwesome, faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { AnimatePresence } from "framer-motion";
 
 
 library.add(fas, faTwitter, faFontAwesome, faGoogle, faFacebook)
@@ -20,9 +21,10 @@ library.add(fas, faTwitter, faFontAwesome, faGoogle, faFacebook)
 
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
-             <Route>
+    <Route>
                   <Route path="sign-up" element={<SignUp />} />
                   <Route path="log-in" element={<LogIn />} />
                    <Route path="/" element={<LandingLayout />}>
@@ -40,9 +42,10 @@ const router = createBrowserRouter(
 
 function App() {
 
-
   return (
+    <AnimatePresence>
       <RouterProvider router={router} />
+    </AnimatePresence>
   );
 }
 
