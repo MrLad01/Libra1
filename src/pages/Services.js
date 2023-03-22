@@ -83,7 +83,7 @@ export default function Services() {
         </motion.div>
       </div>
 
-      <div className="trending">
+      <motion.div className="trending">
         <h3>Trending Books</h3>
   
         <Swiper
@@ -98,7 +98,7 @@ export default function Services() {
                {books}
         </Swiper>
 
-      </div>
+      </motion.div>
 
       <NavLink to="others">
         <img src={ arrow } alt="" />
