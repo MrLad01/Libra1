@@ -25,6 +25,8 @@ export default function HomeLayout() {
                 className="second-text">We relieve you to a great deal by sourcing books for you to lend, read and change your lives. We are always ready to help</motion.p>
               <motion.div
                 variants={buttonVariant(2)}
+                initial="hidden"
+                whileInView="show"
               >
                 <NavLink to="learn-more">Learn More</NavLink>
                 <NavLink to="contact">Contact Us</NavLink>
