@@ -106,8 +106,8 @@ export default function Services() {
       </motion.div>
 
       <motion.div
-       animate={{ y: -20}}
-       transition={{ repeat: Infinity, repeatDelay: 0.5, duration: 0.5, repeatType: 'reverse'}}
+       animate={{ y: -25}}
+       transition={{ repeat: Infinity, repeatDelay: 0.2, duration: 0.5, repeatType: 'reverse'}}
       >
       <NavLink to="others">
         <img src={ arrow } alt="" />
