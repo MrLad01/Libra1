@@ -51,7 +51,7 @@ export default function Other() {
       <motion.div className="other"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      transition={{duration: 3, delay: 0.4 }}
+      transition={{duration: 3, delay: 0.6 }}
       >
         <h2>Other Books</h2>
         <div className="search-bar">
