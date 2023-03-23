@@ -24,7 +24,7 @@ export default function HomeLayout() {
                 variants={textVariant(0.2)}
                 className="second-text">We relieve you to a great deal by sourcing books for you to lend, read and change your lives. We are always ready to help</motion.p>
               <motion.div
-                variants={buttonVariant(2)}
+                variants={buttonVariant(0.1)}
                 initial="hidden"
                 whileInView="show"
               >
