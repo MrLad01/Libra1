@@ -13,6 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/mousewheel';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
+import { pageButton } from "../utils/motion";
 
 
 export default function Other() {
@@ -100,9 +101,14 @@ export default function Other() {
         </div>
       </div>
 
+      <motion.div
+      variants={pageButton()}
+      whileInView="show"
+      > 
       <NavLink to="footer">
           <img src={ arrow } alt="" />
       </NavLink>
+      </motion.div>
 
       <Outlet />
     </div>
