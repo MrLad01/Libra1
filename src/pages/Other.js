@@ -9,7 +9,6 @@ import { Pagination, A11y, Keyboard, Mousewheel, Autoplay} from 'swiper';
 import { motion } from "framer-motion";
 
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/mousewheel';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
@@ -20,7 +19,7 @@ export default function Other() {
 
   const reviews = data4.map(review => {
     return (
-      <SwiperSlide className="reviews-slide">
+      <SwiperSlide>
         <ReviewCard
         key={review.id}
         img={review.img}
@@ -80,10 +79,9 @@ export default function Other() {
       <div className="reviews-ratings">
         <h2>Reviews and Ratings</h2>
         <Swiper
-           modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
+           modules={[A11y, Keyboard, Mousewheel, Autoplay]}
             spaceBetween={30}
             slidesPerView={4}
-            pagination={{ clickable: true }}
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
             autoplay={{delay: 2500}}
