@@ -106,3 +106,12 @@ export const buttonVariant = (delay) => {
       },
     };
   };
+
+  export const pageButton = () => {
+    return {
+      show: {
+        y: -25,
+        transition: { repeat: Infinity, repeatDelay: 0.2, duration: 0.5, repeatType: 'reverse'}
+      }
+    }
+  }

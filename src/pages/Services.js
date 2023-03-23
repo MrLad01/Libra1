@@ -15,6 +15,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/mousewheel';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-coverflow';
+import { pageButton } from "../utils/motion";
 
 
 export default function Services() {
@@ -106,8 +107,10 @@ export default function Services() {
       </motion.div>
 
       <motion.div
-       animate={{ y: -25}}
-       transition={{ repeat: Infinity, repeatDelay: 0.2, duration: 0.5, repeatType: 'reverse'}}
+      //  animate={{ y: -25}}
+      //  transition={{ repeat: Infinity, repeatDelay: 0.2, duration: 0.5, repeatType: 'reverse'}}
+      variants={pageButton()}
+      whileInView="show"
       >
       <NavLink to="others">
         <img src={ arrow } alt="" />
