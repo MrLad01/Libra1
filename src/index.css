@@ -776,7 +776,7 @@ body{
 .swiper-pagination {
   position: absolute !important;
   text-align: center;
-  top: 580px !important;
+  top: 570px !important;
   transition: 300ms opacity;
   transform: translate3d(0, 0, 0);
   z-index: 10 !important;
@@ -790,5 +790,5 @@ swiper-slide {
   position: relative;
   transition-property: transform;
   display: block;
-  margin-bottom: 150px !important;
+  margin-bottom: 100px !important;
 }
