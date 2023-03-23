@@ -86,8 +86,8 @@ export default function Services() {
       <motion.div 
       className="trending"
       initial={{opacity: 0}}
-      animate={{opacity: 1}}
-      transition={{duration: 3, delay: 3 }}
+      whileInView={{opacity: 1}}
+      transition={{duration: 2, delay: 1 }}
       >
         <h3>Trending Books</h3>
   
