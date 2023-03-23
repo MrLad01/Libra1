@@ -765,3 +765,19 @@ body{
 .page-content .login-icons{  
   font-size: 40px;
 }
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 20%;
+  background: green;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+.swiper-pagination {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
