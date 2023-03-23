@@ -20,7 +20,7 @@ export default function Other() {
 
   const reviews = data4.map(review => {
     return (
-      <SwiperSlide>
+      <SwiperSlide className="reviews-slide">
         <ReviewCard
         key={review.id}
         img={review.img}
