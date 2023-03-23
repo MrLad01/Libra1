@@ -320,7 +320,7 @@ body{
   background: none;
   top: 30px; 
 }
-  .services a img::before{
+  /* .services a img::before{
     content: "Click and Scroll down";
   }
 .services a img:hover{
@@ -334,7 +334,7 @@ body{
   100%{
     transform: translateY(20px);
   }
-}
+} */
 .services .nav-buttons{
   margin-top: 88px;
   margin-bottom: 56px;

@@ -105,9 +105,12 @@ export default function Services() {
 
       </motion.div>
 
-      <NavLink to="others">
+      <motion.NavLink to="others"
+      whileInView={{y: [-20, 0]}}
+      transition={{yoyo: Infinity}}
+      >
         <img src={ arrow } alt="" />
-      </NavLink>
+      </motion.NavLink>
 
 
       <Outlet />
