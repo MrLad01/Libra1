@@ -87,7 +87,7 @@ export default function Services() {
       className="trending"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      transition={{duration: 2, delay: 1 }}
+      transition={{duration: 3, delay: 0.8 }}
       >
         <h3>Trending Books</h3>
   
