@@ -6,6 +6,7 @@ import data4 from "../data/data4";
 import ReviewCard from "../component/ReviewCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, A11y, Keyboard, Mousewheel, Autoplay} from 'swiper';
+import { motion } from "framer-motion";
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -47,7 +48,11 @@ export default function Other() {
 
   return (
     <div className="others">
-      <div className="other">
+      <motion.div className="other"
+      initial={{opacity: 0}}
+      whileInView={{opacity: 1}}
+      transition={{duration: 3, delay: 0.4 }}
+      >
         <h2>Other Books</h2>
         <div className="search-bar">
             <div>
@@ -70,7 +75,7 @@ export default function Other() {
                {books}
         </Swiper>
         
-      </div>
+      </motion.div>
       <div className="reviews-ratings">
         <h2>Reviews and Ratings</h2>
         <Swiper
