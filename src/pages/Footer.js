@@ -9,7 +9,7 @@ export default function Footer() {
     <div className="footer">
       <div>
         <motion.div className="terms-and-condition"
-        initial={{x: -20, opacity: 0}}
+        initial={{x: 20, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
         transition={{duration: 2, delay: 0.5}}
         >
