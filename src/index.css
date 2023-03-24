@@ -595,6 +595,14 @@ body{
   color: #ffffff;
   border: none;
 }
+.footer div .terms-and-condition .terms-text button:hover{
+  background-color: #ffffff;
+  color: #19CC56;
+  border: 2px solid #19CC56;
+  transition-delay: 0.1s;
+  transition-duration: 2s;
+}
+
 
 .footer footer{
   font-family: Inter;
