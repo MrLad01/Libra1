@@ -63,7 +63,7 @@ export default function Other() {
                 </select>
             </div>
             <input type="text" placeholder="Search by name" />
-            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" style={{color: "#8493ae", position: "relative", right: "775px"}} />
+            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" style={{color: "#8493ae", position: "relative", right: "775px", top: "5px"}} />
         </div>
         <Swiper
            modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
