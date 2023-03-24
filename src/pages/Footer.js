@@ -17,8 +17,8 @@ export default function Footer() {
             <div className="terms-text">
                 <motion.h2 
                 initial={{x: 10, opacity: 0}}
-                whileFocus={{x: 0, opacity: 1}}
-                transition={{duration: 1, delay: 0.1}}
+                whileInView={{x: 0, opacity: 1}}
+                transition={{duration: 1, delay: 0.6}}
                 >We dedicate time diligently to provide books for you</motion.h2>
                 <hr />
                 <h4>Read through our code of conduct and terms of agreement on borrowing of books</h4>
