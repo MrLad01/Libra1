@@ -522,10 +522,15 @@ body{
   color: #ffffff;
   border: none;
 }
+.others div .your-review button:hover{
+  background-color: #ffffff;
+  color: #19CC56;
+}
 .others div .your-review textarea{
   border-radius: 30px 0 0 30px;
   border: 1.2px solid #5E5A5E;
   outline: none;
+  text-indent: 20px;
 }
 
 .footer{
