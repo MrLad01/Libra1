@@ -14,16 +14,16 @@ export default function Footer() {
         transition={{duration: 4, delay: 0.5}}
         >
             <img src={ book } alt="" />
-            <div className="terms-text">
-                <motion.h2 
-                initial={{x: 10, opacity: 0}}
-                whileInView={{x: 0, opacity: 1}}
-                transition={{duration: 1, delay: 0.6}}
-                >We dedicate time diligently to provide books for you</motion.h2>
-                <hr />
+            <motion.div className="terms-text"
+              initial={{x: 10, opacity: 0}}
+              whileInView={{x: 0, opacity: 1}}
+              transition={{duration: 3, delay: 3}}
+            >
+                <h2>We dedicate time diligently to provide books for you</h2>
+                <hr/>
                 <h4>Read through our code of conduct and terms of agreement on borrowing of books</h4>
                 <button>Read</button>
-            </div>
+            </motion.div>
         </motion.div>
       </div>
       <footer>
