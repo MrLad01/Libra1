@@ -22,7 +22,11 @@ export default function Footer() {
                 <h2>We dedicate time diligently to provide books for you</h2>
                 <hr/>
                 <h4>Read through our code of conduct and terms of agreement on borrowing of books</h4>
-                <button>Read</button>
+                <motion.button
+                 initial={{opacity: 0}}
+                 whileInView={{opacity: 1}}
+                 transition={{duration: 2, delay: 6}}
+                >Read</motion.button>
             </motion.div>
         </motion.div>
       </div>
