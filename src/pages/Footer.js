@@ -24,7 +24,7 @@ export default function Footer() {
                 <h4>Read through our code of conduct and terms of agreement on borrowing of books</h4>
                 <motion.button
                  initial={{opacity: 0}}
-                 whileInView={{opacity: 1}}
+                 animate={{opacity: 1}}
                  transition={{duration: 2, delay: 6}}
                 >Read</motion.button>
             </motion.div>
