@@ -9,13 +9,13 @@ export default function Footer() {
     <div className="footer">
       <div>
         <motion.div className="terms-and-condition"
-        initial={{x: 20, opacity: 0}}
+        initial={{x: 30, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
         transition={{duration: 4, delay: 0.5}}
         >
             <img src={ book } alt="" />
             <motion.div className="terms-text"
-              initial={{x: 10, opacity: 0}}
+              initial={{x: 20, opacity: 0}}
               whileInView={{x: 0, opacity: 1}}
               transition={{duration: 3, delay: 3}}
             >
