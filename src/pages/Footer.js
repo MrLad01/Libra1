@@ -11,7 +11,7 @@ export default function Footer() {
         <motion.div className="terms-and-condition"
         initial={{x: 20, opacity: 0}}
         whileInView={{x: 0, opacity: 1}}
-        transition={{duration: 2, delay: 0.5}}
+        transition={{duration: 4, delay: 0.5}}
         >
             <img src={ book } alt="" />
             <div className="terms-text">
