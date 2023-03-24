@@ -412,6 +412,7 @@ body{
   font-size: 18px;
   padding-left: 18px;
   text-indent: 30px;
+  outline: none;
 }
 .others .reviews-ratings{
   padding-left: 35px;

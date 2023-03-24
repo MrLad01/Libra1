@@ -7,6 +7,7 @@ import ReviewCard from "../component/ReviewCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, A11y, Keyboard, Mousewheel, Autoplay} from 'swiper';
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import 'swiper/css';
 import 'swiper/css/mousewheel';
@@ -62,6 +63,7 @@ export default function Other() {
                 </select>
             </div>
             <input type="text" placeholder="Search by name" />
+            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" style={{color: "#8493ae", position: "relative", right: "775px"}} />
         </div>
         <Swiper
            modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
