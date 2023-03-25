@@ -12,16 +12,12 @@ export default function LogIn() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  // const handleChange = (e) => {
-  //   setEmail(e.target.value)
-  //   setPassword(e.target.value)
-  // }
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault
-  //   setEmail(' ')
-  //   setPassword('')
-  // }
+  const handleSubmit =  (e) => {
+    e.preventDefault()
+    
+   console.log(email, password)
+  }
   return (
         <div>
           <img src="" alt="" />
@@ -29,14 +25,14 @@ export default function LogIn() {
               <div className="form-container">
                 <div className="page-content">
                       <h2>LOG IN</h2>
-                      <Form >
+                      <Form onSubmit={ handleSubmit}>
                         <div className="inputs">
                             <label htmlFor="email"> Email</label>
                             <FontAwesomeIcon icon="fa-solid fa-user" style={{position: "relative", top: "39px", right: "60px", color: "#AEADAE"}} />
-                            <input type="email" placeholder="Enter E-mail" id="email" name="email" required  />
+                            <input type="email" placeholder="Enter E-mail" id="email" name="email" required onChange={(e) => setEmail(e.target.value)} />
                             <label htmlFor="password"> Password</label>
                             <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
-                            <input type="password" placeholder="Enter Password" id="password" name="password" required />
+                            <input type="password" placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
                             <h5><Link>Forgot password?</Link></h5>
                         </div>
                         <button className="button1">Log In</button>
