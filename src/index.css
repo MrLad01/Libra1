@@ -703,6 +703,7 @@ body{
   border-color: #AEADAE;
   font-family: Lexend;
   outline: none;
+  text-indent: 20px;
 }
 .page-content .inputs label{
   font-size: 24px;
