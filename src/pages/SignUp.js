@@ -7,6 +7,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function SignUp() {
 
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [newPassword, setNewPassword] = useState('')
+
+
+  const handleSubmit =  (e) => {
+    e.preventDefault()
+    
+   console.log(email, password, newPassword)
+  }
+
   return (
     <div>
       <img src="" alt="" />
@@ -14,17 +25,17 @@ export default function SignUp() {
             <div className="form-container">
               <div className="page-content">
                     <h2>SIGN UP</h2>
-                    <Form>
+                    <Form onSubmit={ handleSubmit}>
                       <div className="inputs">
                           <label htmlFor="email"> Email</label>
                           <FontAwesomeIcon icon="fa-solid fa-user" style={{position: "relative", top: "39px", right: "60px", color: "#AEADAE"}} />
-                          <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
+                          <input type="email" placeholder="Enter E-mail" id="email" name="email" required onChange={ (e) => setEmail(e.target.value)} />
                           <label htmlFor="password"> Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
-                          <input type="password" placeholder="Enter Password" id="password" name="password" required />
+                          <input type="password" placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
                           <label htmlFor="copassword"> Confirm Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
-                          <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required />
+                          <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
                           {/* <h5><Link>Forgot password?</Link></h5> */}
                       </div>
                       <button className="button2">Sign Up</button>
