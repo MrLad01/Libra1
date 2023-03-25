@@ -2,6 +2,7 @@ import { Link, Form } from "react-router-dom"
 import facebook from "../Icons/icons8-facebook.svg"
 import google from "../Icons/icons8-google.svg"
 import twitter from "../Icons/icons8-twitter.svg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
 export default function SignUp() {
@@ -17,6 +18,7 @@ export default function SignUp() {
                       <div className="inputs">
                           <label htmlFor="email"> Email</label>
                           <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
+                          <FontAwesomeIcon icon="fa-solid fa-user" />
                           <label htmlFor="password"> Password</label>
                           <input type="password" placeholder="Enter Password" id="password" name="password" required />
                           <label htmlFor="copassword"> Confirm Password</label>
