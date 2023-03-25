@@ -17,7 +17,7 @@ export default function SignUp() {
                     <Form>
                       <div className="inputs">
                           <label htmlFor="email"> Email</label>
-                          <FontAwesomeIcon icon="fa-regular fa-user" style={{position: "relative", top: "40px", right: "60px"}} />
+                          <FontAwesomeIcon icon="fa-solid fa-user" style={{position: "relative", top: "39px", right: "60px", color: "#AEADAE"}} />
                           <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
                           <label htmlFor="password"> Password</label>
                           <input type="password" placeholder="Enter Password" id="password" name="password" required />
