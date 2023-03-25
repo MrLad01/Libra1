@@ -33,7 +33,8 @@ export default function SignUp() {
                           <input type="email" placeholder="Enter E-mail" id="email" name="email" required onChange={ (e) => setEmail(e.target.value)} />
                           <label htmlFor="password"> Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
-                          <input type="password" placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
+                          <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "272px", color: "#AEADAE"}} />
+                          <input type="password" placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} /> 
                           <label htmlFor="copassword"> Confirm Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
                           <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
