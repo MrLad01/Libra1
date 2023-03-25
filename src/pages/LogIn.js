@@ -1,6 +1,6 @@
 // import { useState } from "react"
 import { Link, Form } from "react-router-dom"
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import facebook from "../Icons/icons8-facebook.svg"
 import google from "../Icons/icons8-google.svg"
 import twitter from "../Icons/icons8-twitter.svg"
@@ -32,8 +32,10 @@ export default function LogIn() {
                       <Form >
                         <div className="inputs">
                             <label htmlFor="email"> Email</label>
+                            <FontAwesomeIcon icon="fa-solid fa-user" style={{position: "relative", top: "39px", right: "60px", color: "#AEADAE"}} />
                             <input type="email" placeholder="Enter E-mail" id="email" name="email" required  />
                             <label htmlFor="password"> Password</label>
+                            <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
                             <input type="password" placeholder="Enter Password" id="password" name="password" required />
                             <h5><Link>Forgot password?</Link></h5>
                         </div>
