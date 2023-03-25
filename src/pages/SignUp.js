@@ -17,8 +17,8 @@ export default function SignUp() {
                     <Form>
                       <div className="inputs">
                           <label htmlFor="email"> Email</label>
-                          <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
                           <FontAwesomeIcon icon="fa-solid fa-user" />
+                          <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
                           <label htmlFor="password"> Password</label>
                           <input type="password" placeholder="Enter Password" id="password" name="password" required />
                           <label htmlFor="copassword"> Confirm Password</label>
