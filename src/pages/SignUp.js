@@ -20,10 +20,10 @@ export default function SignUp() {
                           <FontAwesomeIcon icon="fa-solid fa-user" style={{position: "relative", top: "39px", right: "60px", color: "#AEADAE"}} />
                           <input type="email" placeholder="Enter E-mail" id="email" name="email" required />
                           <label htmlFor="password"> Password</label>
-                          <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "104px", color: "#AEADAE"}} />
+                          <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
                           <input type="password" placeholder="Enter Password" id="password" name="password" required />
                           <label htmlFor="copassword"> Confirm Password</label>
-                          <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "104px", color: "#AEADAE"}} />
+                          <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
                           <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required />
                           {/* <h5><Link>Forgot password?</Link></h5> */}
                       </div>
