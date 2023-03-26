@@ -37,7 +37,7 @@ export default function SignUp() {
                           <input type="password" placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} /> 
                           <label htmlFor="copassword"> Confirm Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
-                          <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "268px", color: "#AEADAE"}} />
+                          <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE"}} />
                           <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
                           {/* <h5><Link>Forgot password?</Link></h5> */}
                       </div>
