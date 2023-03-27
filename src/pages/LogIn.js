@@ -37,8 +37,6 @@ export default function LogIn() {
                             <h5><Link>Forgot password?</Link></h5>
                         </div>
                         <button className="button1">Log In</button>
-                        {/* {email}
-                        {password} */}
                       </Form>
                       <div>
                           <h5>Or login using</h5>
