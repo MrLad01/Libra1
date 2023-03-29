@@ -49,7 +49,7 @@ export default function SignUp() {
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
                           { view2 && <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView2} />}
                           { !view2 && <FontAwesomeIcon icon="fa-solid fa-eye-slash" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView2} />}
-                          <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
+                          <input type={view2 ?"password":"text"} placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
                       </div>
                       <button className="button2">Sign Up</button>
                     </Form>
