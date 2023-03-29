@@ -20,6 +20,10 @@ export default function SignUp() {
    console.log(email, password, newPassword)
   }
 
+  const handleView = () => {
+    setView("text")
+  }
+
   return (
     <div>
       <img src="" alt="" />
