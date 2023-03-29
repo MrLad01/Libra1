@@ -44,6 +44,7 @@ export default function SignUp() {
                           <label htmlFor="copassword"> Confirm Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
                           { view && <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView} />}
+                          { !view && <FontAwesomeIcon icon="fa-solid fa-eye-slash" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView} />}
                           <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
                       </div>
                       <button className="button2">Sign Up</button>
