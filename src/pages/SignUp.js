@@ -11,6 +11,7 @@ export default function SignUp() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
+  const [view, setView] = useState("password")
 
 
   const handleSubmit =  (e) => {
