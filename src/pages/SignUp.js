@@ -38,7 +38,7 @@ export default function SignUp() {
                           <input type="email" placeholder="Enter E-mail" id="email" name="email" required onChange={ (e) => setEmail(e.target.value)} />
                           <label htmlFor="password"> Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
-                          <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "268px", color: "#AEADAE"}} onClick={handleView} />
+                          <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "268px", color: "#AEADAE", pointer: "cursor"}} onClick={handleView} />
                           <input type={view} placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} /> 
                           <label htmlFor="copassword"> Confirm Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
