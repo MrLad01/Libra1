@@ -12,6 +12,7 @@ export default function SignUp() {
   const [password, setPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')
   const [view, setView] = useState(true)
+  const [view2, setView2] = useState(true)
 
 
   const handleSubmit =  (e) => {
@@ -22,6 +23,9 @@ export default function SignUp() {
 
   const handleView = () => {
     setView(!view)
+  }
+  const handleView2 = () => {
+    setView2(!view2)
   }
 
   return (
@@ -43,8 +47,8 @@ export default function SignUp() {
                           <input type={view ?"password":"text"} placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} /> 
                           <label htmlFor="copassword"> Confirm Password</label>
                           <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "204px", color: "#AEADAE"}} />
-                          { view && <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView} />}
-                          { !view && <FontAwesomeIcon icon="fa-solid fa-eye-slash" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView} />}
+                          { view2 && <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView2} />}
+                          { !view2 && <FontAwesomeIcon icon="fa-solid fa-eye-slash" style={{position: "relative", top: "43px", left: "167px", color: "#AEADAE", cursor: "pointer"}} onClick={handleView2} />}
                           <input type="password" placeholder="Enter Password again" id="copassword" name="copassword" required onChange={(e) => setNewPassword(e.target.value)} />
                       </div>
                       <button className="button2">Sign Up</button>
