@@ -714,6 +714,7 @@ body{
   position: relative;
   left: 34%;
   font-family: Lexend;
+  cursor: pointer;
 }
 
 .page-content div h5{
