@@ -21,7 +21,7 @@ export default function SignUp() {
   }
 
   const handleView = () => {
-    setView("text")
+    setView(!view)
   }
 
   return (
