@@ -33,7 +33,7 @@ export default function LogIn() {
                             <input type="email" placeholder="Enter E-mail" id="email" name="email" required onChange={(e) => setEmail(e.target.value)} />
                             <label htmlFor="password"> Password</label>
                             <FontAwesomeIcon icon="fa-solid fa-unlock" style={{position: "relative", top: "39px", right: "105px", color: "#AEADAE"}} />
-                            <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "268px", color: "#AEADAE", cursor:"pointer"}} />
+                            <FontAwesomeIcon icon="fa-solid fa-eye" style={{position: "relative", top: "43px", left: "268px", color: "#AEADAE", cursor:"pointer"}} onClick={() => setView(!view)} />
                             <input type={view ? "password": "text"} placeholder="Enter Password" id="password" name="password" required onChange={(e) => setPassword(e.target.value)} />
                             <h5><Link>Forgot password?</Link></h5>
                         </div>
