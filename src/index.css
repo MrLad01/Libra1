@@ -491,6 +491,7 @@ body{
   background-color: #19CC56;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 .others div .your-review button:hover{
   background-color: #ffffff;
