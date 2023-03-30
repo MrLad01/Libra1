@@ -546,6 +546,7 @@ body{
   letter-spacing: 0em;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 .footer div .terms-and-condition .terms-text button:hover{
   background-color: #ffffff;
