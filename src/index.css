@@ -441,24 +441,7 @@ body{
   position: relative;
   top: 10px;
 }
-.others .nav-buttons{
-  margin-top: 88px;
-  margin-bottom: 56px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  position: relative;
-  left: 520px;
-}
-.others .navi .nav-buttons{
-  margin-top: 95px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  position: relative;
-  left: 410px;
-}
+
 
 .others hr{
   width: 1200px;
