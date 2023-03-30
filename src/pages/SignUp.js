@@ -21,10 +21,6 @@ export default function SignUp() {
    console.log(email, password, newPassword)
   }
 
-  const handleView2 = () => {
-    setView2(!view2)
-  }
-
   return (
     <div>
       <img src="" alt="" />
