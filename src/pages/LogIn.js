@@ -11,6 +11,7 @@ export default function LogIn() {
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [view, setView] = useState(true)
 
 
   const handleSubmit =  (e) => {
