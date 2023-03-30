@@ -21,9 +21,6 @@ export default function SignUp() {
    console.log(email, password, newPassword)
   }
 
-  // const handleView = () => {
-  //   setView(!view)
-  // }
   const handleView2 = () => {
     setView2(!view2)
   }
