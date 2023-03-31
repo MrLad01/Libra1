@@ -21,9 +21,9 @@ export default function LogIn() {
    console.log(email, password)
   }
   return (
-        <div>
+        <div className="background">
           <img src={ logo } alt="logo" />
-          <div className="background ">
+          <div >
               <div className="form-container">
                 <div className="page-content">
                       <h2>LOG IN</h2>
