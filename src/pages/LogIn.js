@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import facebook from "../Icons/icons8-facebook.svg"
 import google from "../Icons/icons8-google.svg"
 import twitter from "../Icons/icons8-twitter.svg"
+import logo from '../images/Frame304.png';
 
 
 
