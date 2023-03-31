@@ -622,6 +622,9 @@ body{
   padding-bottom: 40px;
 }
 
+.background img{
+  margin-left: 10px;
+}
 .form-container{
   margin: 35px auto;
   width: 636px;
