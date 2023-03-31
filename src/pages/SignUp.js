@@ -4,6 +4,7 @@ import facebook from "../Icons/icons8-facebook.svg"
 import google from "../Icons/icons8-google.svg"
 import twitter from "../Icons/icons8-twitter.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import logo from '../images/Frame304.png';
 
 
 export default function SignUp() {
