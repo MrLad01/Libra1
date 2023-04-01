@@ -12,6 +12,7 @@ import SignUp from "./pages/SignUp";
 import LogIn from "./pages/LogIn";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faFontAwesome, faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { AnimatePresence } from "framer-motion";
 
