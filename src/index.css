@@ -324,9 +324,7 @@ body{
   border-radius: 4px;
   border: none;
 }
-.nav-buttons div:hover{
-  background: #19CC56;
-}
+
 .nav-buttons .active{
   background: #19CC56;
 }
