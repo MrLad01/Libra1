@@ -325,9 +325,7 @@ body{
   border: none;
 }
 
-.nav-buttons .active{
-  background: #19CC56;
-}
+
 .others > .other{
   padding-left: 65px;
   padding-right: 65px;
