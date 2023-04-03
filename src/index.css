@@ -13,6 +13,8 @@ body{
   background: linear-gradient(90deg, rgba(241, 255, 246, 0.86) 0%, rgba(248, 248, 248, 0.86) 101.67%);
   overflow-x: hidden;
 }
+
+/* Headers */
 .landing > header > img{
   width: 86px;
   height: 40px;
