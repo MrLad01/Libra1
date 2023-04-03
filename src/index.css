@@ -99,6 +99,16 @@ body{
   }
 }
 
+@media(max-width: 1250px){
+  .landing > header > img{
+    width: 86px;
+    height: 40px;
+    margin-top: 36px;
+    background: none;
+    margin-left: 20px;
+    }
+}
+
 /* Homepage */
 .home1 img{
   width: 636px;
