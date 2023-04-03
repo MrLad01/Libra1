@@ -103,6 +103,9 @@ background: none;
     body{
       padding: 20px;
     }
+    .landing > header > img{
+      margin-top: 0;
+    }
 }
 
 /* Homepage */
