@@ -15,7 +15,7 @@ body{
 }
 
 /* Header */
-@media(min-width: 1000px){
+@media(min-width: 1250px){
   .landing > header > img{
   width: 86px;
   height: 40px;
