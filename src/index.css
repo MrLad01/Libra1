@@ -109,13 +109,13 @@ background: none;
     .landing > header > div{
       margin-top: 16px;
     }
-    /* .landing > header > nav{
-      margin-top: 40px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      }
-      .landing >header > nav> a{
+    .landing > header > nav{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+      /* .landing >header > nav> a{
       text-decoration: none;
       margin-left: 52.5px;
       font-size: 20px;
@@ -147,8 +147,8 @@ background: none;
       transition-delay: 1ms;
       outline: none;
       border: none;
-      }
-      .landing >header > nav> select > option{
+      } */
+      /* .landing >header > nav> select > option{
       border: none;
       outline: none;
       }
@@ -170,7 +170,7 @@ background: none;
       scale: 2;
       transition-duration: 1ms;
       transition-duration: 1s;
-      } */
+      } */ 
 }
 
 /* Homepage */
