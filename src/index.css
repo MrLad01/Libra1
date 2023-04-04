@@ -99,7 +99,7 @@ background: none;
   }
 }
 
-@media(max-width: 1250px){
+@media(max-width: 1250px ){
     body{
       padding: 20px;
     }
@@ -114,7 +114,8 @@ background: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    }
+  }
+}
       /* .landing >header > nav> a{
       text-decoration: none;
       margin-left: 52.5px;
@@ -171,7 +172,6 @@ background: none;
       transition-duration: 1ms;
       transition-duration: 1s;
       } */ 
-}
 
 /* Homepage */
 .home1 img{
