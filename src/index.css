@@ -106,6 +106,9 @@ background: none;
     .landing > header > img{
       margin-top: 0;
     }
+    .landing > header > div{
+      margin-top: 18px;
+    }
 }
 
 /* Homepage */
