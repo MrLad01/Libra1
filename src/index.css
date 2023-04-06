@@ -117,14 +117,15 @@ background: none;
     justify-content: space-around;
   }
 }
-      /* .landing >header > nav> a{
+      .landing >header > nav> a{
       text-decoration: none;
-      margin-left: 52.5px;
+      margin-left: 12.5px;
       font-size: 20px;
       line-height: 30px;
       font-weight: 400;
       color: #353135;
       }
+      /*
       .landing >header > nav> a:hover{
       scale: 1.2;
       transition-duration: 0.5s;
