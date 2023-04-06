@@ -105,13 +105,13 @@ background: none;
       /* display: none; */
     }
     .landing > header > img{
-      margin-top: 14px;
+      margin-top: 10px;
     }
     .landing > header > div{
       margin-top: 16px;
     }
     .landing > header > nav{
-    margin-top: 0px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
