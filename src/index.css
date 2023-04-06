@@ -124,17 +124,10 @@ background: none;
     font-weight: 400;
     color: #353135;
     }
-}
-      /*
-      .landing >header > nav> a:hover{
-      scale: 1.2;
-      transition-duration: 0.5s;
-      transition-delay: 1ms;
-      }
-      .landing >header > nav> select{
+    .landing >header > nav> select{
       text-decoration: none;
       margin-left: 52.5px;
-      font-size: 20px;
+      font-size: 28px;
       line-height: 30px;
       font-weight: 400;
       color: #353135;
@@ -144,6 +137,14 @@ background: none;
       background: none;
       outline: none;
       }
+}
+      /*
+      .landing >header > nav> a:hover{
+      scale: 1.2;
+      transition-duration: 0.5s;
+      transition-delay: 1ms;
+      }
+      
       .landing >header > nav> select:hover{
       scale: 1.1;
       transition-duration: 0.5s;
