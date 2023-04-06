@@ -115,7 +115,7 @@ background: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 20px;
+    gap: 24px;
   }
     .landing >header > nav> a{
     text-decoration: none;
