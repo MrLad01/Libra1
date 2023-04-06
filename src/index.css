@@ -15,6 +15,11 @@ body{
 }
 
 /* Header */
+.landing > header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
 .landing > header > img{
 width: 86px;
 height: 40px;
@@ -26,11 +31,6 @@ background: none;
   .landing{
   width: 1215px;
   margin: 0 auto ;
-  }
-  .landing > header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   }
   .landing > header > div{
   margin-top: 36px;
