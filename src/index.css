@@ -111,7 +111,7 @@ background: none;
       margin-top: 16px;
     }
     .landing > header > nav{
-    margin-top: 18px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
