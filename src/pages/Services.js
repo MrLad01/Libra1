@@ -6,6 +6,7 @@ import data2 from "../data/data2"
 import Item from "../component/Item";
 import { Pagination, A11y, Keyboard, Mousewheel, Autoplay, EffectCoverflow } from 'swiper';
 import { motion } from "framer-motion"
+import { useState, useEffect } from "react";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -19,6 +20,25 @@ import { pageButton } from "../utils/motion";
 
 
 export default function Services() {
+
+  
+  // const isMobile = window.innerWidth < 1250;
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1250); // Use useState hook to manage state
+
+  useEffect(() => {
+    const handleResize = (e) => {
+      e.preventDefault();
+      setIsMobile(window.innerWidth < 1250); // Update isMobile state based on screen width
+    };
+
+    window.addEventListener('resize', handleResize); // Add event listener for window resize
+
+    // Clean up event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const items = data2.map(item => {
     return (  
@@ -49,6 +69,20 @@ export default function Services() {
     
     return (
       <div className="services">
+      {isMobile ? (
+        <div className="home2">
+          <p><motion.span
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 2, delay: 0.5}}
+          >Sorry your screen size is small,</motion.span> <motion.span
+              initial={{opacity: 0}}
+              whileInView={{opacity: 1}}
+              transition={{duration: 2, delay: 2}}
+          >but in the coming days we'll get something appropriate for you</motion.span></p>
+        </div>
+        ) : (
+      <div>
       <div className="what-we-do">  
         <motion.h3
         initial={{opacity: 0, z: 10}}
@@ -100,7 +134,7 @@ export default function Services() {
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
             autoplay={{delay: 2500}}
-         >
+            >
                {books}
         </Swiper>
 
@@ -119,6 +153,7 @@ export default function Services() {
 
 
       <Outlet />
-    </div>
+      </div> )}
+      </div>
   )
 }
