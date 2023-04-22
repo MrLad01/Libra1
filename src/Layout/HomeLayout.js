@@ -2,11 +2,28 @@ import { NavLink } from "react-router-dom"
 import gof from "../images/Rectangle 3.png"
 import { motion } from "framer-motion"
 import { buttonVariant, slideIn , textVariant} from "../utils/motion"
+import { useState, useEffect } from "react"
 
 
 export default function HomeLayout() {
 
-  const isMobile = window.innerWidth < 1250;
+  // const isMobile = window.innerWidth < 1250;
+
+  const [isMobile, setIsMobile] = useState(false); // Use useState hook to manage state
+
+  useEffect(() => {
+    const handleResize = (e) => {
+      e.preventDefault();
+      setIsMobile(window.innerWidth < 1250); // Update isMobile state based on screen width
+    };
+
+    window.addEventListener('resize', handleResize); // Add event listener for window resize
+
+    // Clean up event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div>
