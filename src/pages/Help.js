@@ -1,13 +1,13 @@
 import { motion } from "framer-motion"
-import { slideIn } from "../utils/motion"
+import { zoomIn } from "../utils/motion"
 
 export default function Help() {
   return (
-    <div>
+    <div className="help">
       <motion.p
-        variants={slideIn("up", "animate", 4, 2)}
+        variants={zoomIn(1, 2)}
         initial="hidden"
-        whileInView="show"
+        animate="show"
       >To send a review on what you've seen so far, drop a message to ladayodeji@gmail.com, Thanks</motion.p>
     </div>
   )

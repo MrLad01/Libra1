@@ -836,3 +836,9 @@ swiper-slide {
   display: block;
   margin-bottom: 100px !important;
 }
+.help{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
