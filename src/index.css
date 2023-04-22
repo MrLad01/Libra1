@@ -101,6 +101,7 @@ background: none;
 
 @media(max-width: 1250px ){
 
+
    .landing > header > img{
     margin-top: 7px;
   }
@@ -112,11 +113,15 @@ background: none;
     display: none;
 }
 
-    /* body{
-        display: none; 
-        padding: 20px; 
-        display: none; 
-    }
+.home2{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+body{ 
+    padding: 20px; 
+}
+ /*
     .landing >header > nav> a{
     text-decoration: none;
     font-size: 18px;
