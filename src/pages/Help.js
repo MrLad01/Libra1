@@ -5,7 +5,7 @@ export default function Help() {
   return (
     <div className="help">
       <motion.p
-        variants={zoomIn(1, 2)}
+        variants={zoomIn(1, 0.7)}
         initial="hidden"
         animate="show"
       >To send a review on what you've seen so far, drop a message to ladayodeji@gmail.com, Thanks</motion.p>
