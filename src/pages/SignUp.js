@@ -44,21 +44,22 @@ export default function SignUp() {
   return (
     <div>
             {isMobile ? (
-        <div className="home2">
+              <div className="home2">
+                <img src= { logo } alt="logo" style={{marginTop: "-30px", marginBottom: "30px"}}/>
           <p><motion.span
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
           transition={{duration: 2, delay: 0.5}}
           >Sorry your screen size is small,</motion.span> <motion.span
-              initial={{opacity: 0}}
+          initial={{opacity: 0}}
               whileInView={{opacity: 1}}
               transition={{duration: 2, delay: 2}}
           >but in the coming days we'll get something appropriate for you</motion.span></p>
         </div>
         ) : (
-    <div className="background">
-      <img src= { logo } alt="logo"  style={{marginLeft: "45px"}} />
+          <div className="background">
       <div>
+           <img src= { logo } alt="logo" style={{marginLeft:"45px"}} />
             <div className="form-container">
               <div className="page-content">
                     <h2>SIGN UP</h2>
