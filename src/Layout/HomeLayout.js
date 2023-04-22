@@ -5,8 +5,17 @@ import { buttonVariant, slideIn , textVariant} from "../utils/motion"
 
 
 export default function HomeLayout() {
+
+  const isMobile = window.innerWidth < 1250;
+
   return (
-      <motion.div className="home">
+    <div>
+      {isMobile ? (
+        <div>
+          <h2>Sorry your screen size is too small, but in the coming days we'll get something appropriate for you</h2>
+        </div>
+        ) : (
+        <motion.div className="home">
         <div className="home1">
           <motion.div 
           exit={{
@@ -42,6 +51,7 @@ export default function HomeLayout() {
           </motion.div>
         </div>
 
-      </motion.div>
+      </motion.div>) }
+      </div>
   )
 }
