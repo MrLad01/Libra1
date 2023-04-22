@@ -100,11 +100,11 @@ background: none;
 }
 
 @media(max-width: 1250px ){
-    body{
-      /* display: none; */
-      /* padding: 20px; */
-      /* display: none; */
-    }
+    /* body{
+        display: none; 
+        padding: 20px; 
+        display: none; 
+    }*/
     /* .landing > header > img{
       margin-top: 7px;
     }
