@@ -29,7 +29,15 @@ export default function HomeLayout() {
     <div>
       {isMobile ? (
         <div className="home2">
-          <p>Sorry your screen size is small, but in the coming days we'll get something appropriate for you</p>
+          <p><motion.span
+          initial={{opacity: 0}}
+          animate={{opacity: 1}}
+          transition={{duration: 2, delay: 0.5}}
+          >Sorry your screen size is small,</motion.span> <motion.span
+              initial={{opacity: 0}}
+              animate={{opacity: 1}}
+              transition={{duration: 2, delay: 2}}
+          >but in the coming days we'll get something appropriate for you</motion.span></p>
         </div>
         ) : (
         <motion.div className="home">
