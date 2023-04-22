@@ -9,7 +9,7 @@ export default function HomeLayout() {
 
   // const isMobile = window.innerWidth < 1250;
 
-  const [isMobile, setIsMobile] = useState(false); // Use useState hook to manage state
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1250); // Use useState hook to manage state
 
   useEffect(() => {
     const handleResize = (e) => {
@@ -29,7 +29,7 @@ export default function HomeLayout() {
     <div>
       {isMobile ? (
         <div>
-          <h2>Sorry your screen size is too small, but in the coming days we'll get something appropriate for you</h2>
+          <h2>Sorry your screen size is small, but in the coming days we'll get something appropriate for you</h2>
         </div>
         ) : (
         <motion.div className="home">
