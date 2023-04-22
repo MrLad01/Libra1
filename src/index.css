@@ -101,10 +101,11 @@ background: none;
 
 @media(max-width: 1250px ){
     body{
-      padding: 20px;
+      display: none;
+      /* padding: 20px; */
       /* display: none; */
     }
-    .landing > header > img{
+    /* .landing > header > img{
       margin-top: 7px;
     }
     .landing > header > div{
@@ -136,7 +137,7 @@ background: none;
       margin-top: -8px;
       background: none;
       outline: none;
-      }
+      } */
 }
       /*
       .landing >header > nav> a:hover{
