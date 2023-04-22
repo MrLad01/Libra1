@@ -10,6 +10,7 @@ import Other from "./pages/Other";
 import Services from "./pages/Services";
 import SignUp from "./pages/SignUp";
 import LogIn from "./pages/LogIn";
+import Help from "./pages/Help";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
@@ -35,6 +36,7 @@ const router = createBrowserRouter(
                           <Route path="footer" element={<Footer />} />
                         </Route>
                       </Route>
+                      <Route path="help" element={<Help />} />
                     </Route>  
                 </Route>
              
