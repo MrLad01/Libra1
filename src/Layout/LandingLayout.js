@@ -27,8 +27,8 @@ export default function LandingLayout({ loginClick }) {
             <NavLink to="/">Home</NavLink>
             <NavLink to="services">Services</NavLink>
                 <select name="Settings" id="" >
-                    <option value="0">Settings</option>
-                    <option value="">No Value</option>
+                    <option value="0"><NavLink to="settings">Settings</NavLink></option>
+                    <option value=""><NavLink>No Value</NavLink></option>
                 </select>
 
             <NavLink to="help">Help</NavLink>
