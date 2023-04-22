@@ -1,13 +1,32 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Link, Form } from "react-router-dom"
 import facebook from "../Icons/icons8-facebook.svg"
 import google from "../Icons/icons8-google.svg"
 import twitter from "../Icons/icons8-twitter.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import logo from '../images/Frame304.png';
-
+import { motion } from "framer-motion"
 
 export default function SignUp() {
+
+  
+  // const isMobile = window.innerWidth < 1250;
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1250); // Use useState hook to manage state
+
+  useEffect(() => {
+    const handleResize = (e) => {
+      e.preventDefault();
+      setIsMobile(window.innerWidth < 1250); // Update isMobile state based on screen width
+    };
+
+    window.addEventListener('resize', handleResize); // Add event listener for window resize
+
+    // Clean up event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -23,6 +42,20 @@ export default function SignUp() {
   }
 
   return (
+    <div>
+            {isMobile ? (
+        <div className="home2">
+          <p><motion.span
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 2, delay: 0.5}}
+          >Sorry your screen size is small,</motion.span> <motion.span
+              initial={{opacity: 0}}
+              whileInView={{opacity: 1}}
+              transition={{duration: 2, delay: 2}}
+          >but in the coming days we'll get something appropriate for you</motion.span></p>
+        </div>
+        ) : (
     <div className="background">
       <img src= { logo } alt="logo"  style={{marginLeft: "45px"}} />
       <div>
@@ -59,6 +92,7 @@ export default function SignUp() {
               </div>
             </div>
           </div>
-      </div>
+      </div> )}
+  </div>
   )
 }
