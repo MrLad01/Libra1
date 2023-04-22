@@ -119,7 +119,8 @@ background: none;
 }
 
 body{ 
-    padding: 20px; 
+    padding: 100px; 
+    margin-top: -100px;
 }
  /*
     .landing >header > nav> a{
