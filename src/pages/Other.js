@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, A11y, Keyboard, Mousewheel, Autoplay} from 'swiper';
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState, useEffect } from "react";
 
 import 'swiper/css';
 import 'swiper/css/mousewheel';
@@ -17,6 +18,25 @@ import { pageButton } from "../utils/motion";
 
 
 export default function Other() {
+
+  
+  // const isMobile = window.innerWidth < 1250;
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1250); // Use useState hook to manage state
+
+  useEffect(() => {
+    const handleResize = (e) => {
+      e.preventDefault();
+      setIsMobile(window.innerWidth < 1250); // Update isMobile state based on screen width
+    };
+
+    window.addEventListener('resize', handleResize); // Add event listener for window resize
+
+    // Clean up event listener on unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const reviews = data4.map(review => {
     return (
@@ -48,6 +68,21 @@ export default function Other() {
   })
 
   return (
+    <div>
+            {isMobile ? (
+        <div className="home2">
+          <p><motion.span
+          initial={{opacity: 0}}
+          whileInView={{opacity: 1}}
+          transition={{duration: 2, delay: 0.5}}
+          >Sorry your screen size is small,</motion.span> <motion.span
+              initial={{opacity: 0}}
+              whileInView={{opacity: 1}}
+              transition={{duration: 2, delay: 2}}
+          >but in the coming days we'll get something appropriate for you</motion.span></p>
+        </div>
+        ) : (
+
     <div className="others">
       <motion.div className="other"
       initial={{opacity: 0}}
@@ -111,6 +146,7 @@ export default function Other() {
       </motion.div>
 
       <Outlet />
+    </div>)}
     </div>
   )
 }
