@@ -28,7 +28,7 @@ export default function HomeLayout() {
   return (
     <div>
       {isMobile ? (
-        <div>
+        <div className="home2">
           <h2>Sorry your screen size is small, but in the coming days we'll get something appropriate for you</h2>
         </div>
         ) : (

@@ -100,24 +100,23 @@ background: none;
 }
 
 @media(max-width: 1250px ){
+
+   .landing > header > img{
+    margin-top: 7px;
+  }
+  .landing > header > div{
+    display: none;
+  }
+
+  .landing > header > nav{
+    display: none;
+}
+
     /* body{
         display: none; 
         padding: 20px; 
         display: none; 
-    }*/
-    /* .landing > header > img{
-      margin-top: 7px;
     }
-    .landing > header > div{
-      margin-top: 16px;
-    }
-    .landing > header > nav{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 24px;
-  }
     .landing >header > nav> a{
     text-decoration: none;
     font-size: 18px;
