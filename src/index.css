@@ -55,17 +55,17 @@ body{
     transition-delay: 1ms;
   }
   .landing >header > nav> select{
-  text-decoration: none;
-  margin-left: 52.5px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #353135;
-  border: none;
-  width: 100px;
-  margin-top: -8px;
-  background: none;
-  outline: none;
+    text-decoration: none;
+    margin-left: 52.5px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #353135;
+    border: none;
+    width: 100px;
+    margin-top: -8px;
+    background: none;
+    outline: none;
   }
   .landing >header > nav> select:hover{
   scale: 1.1;
