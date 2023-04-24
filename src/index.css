@@ -36,10 +36,10 @@ body{
     margin-top: 36px;
   }
   .landing > header > nav{
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .landing >header > nav> a{
   text-decoration: none;
