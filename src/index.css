@@ -21,10 +21,10 @@ body{
   justify-content: space-between;
 }
 .landing > header > img{
-width: 86px;
-height: 40px;
-margin-top: 35.5px;
-background: none;
+  width: 86px;
+  height: 40px;
+  margin-top: 35.5px;
+  background: none;
 }
 
 @media(min-width: 1249px){
