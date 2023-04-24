@@ -100,8 +100,6 @@ background: none;
 }
 
 @media(max-width: 1250px ){
-
-
    .landing > header > img{
     margin-top: 7px;
   }
