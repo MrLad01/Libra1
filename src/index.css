@@ -50,9 +50,9 @@ body{
     color: #353135;
   }
   .landing >header > nav> a:hover{
-  scale: 1.2;
-  transition-duration: 0.5s;
-  transition-delay: 1ms;
+    scale: 1.2;
+    transition-duration: 0.5s;
+    transition-delay: 1ms;
   }
   .landing >header > nav> select{
   text-decoration: none;
