@@ -79,16 +79,16 @@ body{
     outline: none;
   }
   .landing > header > div > a{
-  text-decoration: none;
-  margin-left: 22.5px;
-  padding: 6.5px 52px;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: 0em;
-  text-align: left;
-  border-radius: 16px;
-  border: 2px solid #19CC56;
-  color: #19CC56;
+    text-decoration: none;
+    margin-left: 22.5px;
+    padding: 6.5px 52px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 16px;
+    border: 2px solid #19CC56;
+    color: #19CC56;
   }
   .landing > header > div > a:hover{
   background: #19CC56;
