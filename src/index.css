@@ -29,8 +29,8 @@ body{
 
 @media(min-width: 1249px){
   .landing{
-  width: 1215px;
-  margin: 0 auto ;
+    width: 1215px;
+    margin: 0 auto ;
   }
   .landing > header > div{
   margin-top: 36px;
