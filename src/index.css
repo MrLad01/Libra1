@@ -75,8 +75,8 @@ body{
     border: none;
   }
   .landing >header > nav> select > option{
-  border: none;
-  outline: none;
+    border: none;
+    outline: none;
   }
   .landing > header > div > a{
   text-decoration: none;
