@@ -685,11 +685,11 @@ body{
   height: 56px;
   width: 651px;
 }
-  .footer footer .footer-icons a{
-    font-size: 40px;
-    color: #ffffff;
-    margin-left: 40px;
-  }
+.footer footer .footer-icons a{
+  font-size: 40px;
+  color: #ffffff;
+  margin-left: 40px;
+}
 .background{
   z-index: 1;
   background-color: rgba(164,174,168, 0.2);
