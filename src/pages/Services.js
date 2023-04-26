@@ -79,7 +79,14 @@ export default function Services() {
               initial={{opacity: 0}}
               whileInView={{opacity: 1}}
               transition={{duration: 2, delay: 2}}
-          >but in the coming days we'll get something appropriate for you</motion.span></p>
+          >in the coming days we'll get something appropriate for you</motion.span></p>
+          <motion.p
+            initial={{opacity: 0}}
+            whileInView={{opacity: 1}}
+            transition={{duration: 2, delay: 4}}
+          >
+            But you can change your browser screen to desktop site or zoom out to have a better experience
+            </motion.p>
         </div>
         ) : (
       <div>
