@@ -38,7 +38,7 @@ export default function Footer() {
               initial={{opacity: 0}}
               whileInView={{opacity: 1}}
               transition={{duration: 2, delay: 2}}
-          >but in the coming days we'll get something appropriate for you</motion.span></p>
+          >in the coming days we'll get something appropriate for you</motion.span></p>
           <motion.p
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
