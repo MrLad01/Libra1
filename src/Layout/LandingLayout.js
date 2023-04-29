@@ -20,7 +20,7 @@ export default function LandingLayout({ loginClick }) {
       <motion.header
       initial={{opacity: 0}}
       animate={{opacity: 1}}
-      transition={{delay: 0.1, duration: 1}}
+      transition={{delay: 0.05, duration: 0.5}}
       >
         <img src={Frame304} alt="logo" />
         <nav>
