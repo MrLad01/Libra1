@@ -33,16 +33,16 @@ export default function Footer() {
           <p><motion.span
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
-          transition={{duration: 2, delay: 0.5}}
+          transition={{duration: 1, delay: 0.25}}
           >Sorry your screen size is small,</motion.span> <motion.span
               initial={{opacity: 0}}
               whileInView={{opacity: 1}}
-              transition={{duration: 2, delay: 2}}
+              transition={{duration: 1, delay: 1}}
           >in the coming days we'll get something appropriate for you</motion.span></p>
           <motion.p
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 2, delay: 4}}
+            transition={{duration: 1, delay: 2}}
           >
             But you can change your browser screen to desktop site or zoom out to have a better experience
             </motion.p>
@@ -53,13 +53,13 @@ export default function Footer() {
           <motion.div className="terms-and-condition"
           initial={{x: 30, opacity: 0}}
           whileInView={{x: 0, opacity: 1}}
-          transition={{duration: 4, delay: 0.5}}
+          transition={{duration: 2, delay: 0.25}}
           >
               <img src={ book } alt="" />
               <motion.div className="terms-text"
                 initial={{x: 20, opacity: 0}}
                 whileInView={{x: 0, opacity: 1}}
-                transition={{duration: 3, delay: 3}}
+                transition={{duration: 1.5, delay: 1.5}}
               >
                   <h2>We dedicate time diligently to provide books for you</h2>
                   <hr/>
@@ -67,7 +67,7 @@ export default function Footer() {
                   <motion.button
                   initial={{opacity: 0}}
                   animate={{opacity: 1}}
-                  transition={{duration: 2, delay: 6}}
+                  transition={{duration: 1, delay: 3}}
                   >Read</motion.button>
               </motion.div>
           </motion.div>
