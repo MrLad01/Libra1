@@ -74,16 +74,16 @@ export default function Other() {
           <p><motion.span
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
-          transition={{duration: 2, delay: 0.5}}
+          transition={{duration: 1, delay: 0.25}}
           >Sorry your screen size is small,</motion.span> <motion.span
               initial={{opacity: 0}}
               whileInView={{opacity: 1}}
-              transition={{duration: 2, delay: 2}}
+              transition={{duration: 1, delay: 1}}
           >in the coming days we'll get something appropriate for you</motion.span></p>
           <motion.p
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 2, delay: 4}}
+            transition={{duration: 1, delay: 2}}
           >
             But you can change your browser screen to desktop site or zoom out to have a better experience
           </motion.p>
@@ -94,7 +94,7 @@ export default function Other() {
       <motion.div className="other"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      transition={{duration: 2.8, delay: 0.6 }}
+      transition={{duration: 1.4, delay: 0.3 }}
       >
         <h2>Other Books</h2>
         <div className="search-bar">
