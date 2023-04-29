@@ -74,16 +74,16 @@ export default function Services() {
           <p><motion.span
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
-          transition={{duration: 2, delay: 0.5}}
+          transition={{duration: 1, delay: 0.25}}
           >Sorry your screen size is small,</motion.span> <motion.span
               initial={{opacity: 0}}
               whileInView={{opacity: 1}}
-              transition={{duration: 2, delay: 2}}
+              transition={{duration: 1, delay: 1}}
           >in the coming days we'll get something appropriate for you</motion.span></p>
           <motion.p
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
-            transition={{duration: 2, delay: 4}}
+            transition={{duration: 1, delay: 2}}
           >
             But you can change your browser screen to desktop site or zoom out to have a better experience
             </motion.p>
@@ -94,12 +94,12 @@ export default function Services() {
         <motion.h3
         initial={{opacity: 0, z: 10}}
         animate={{opacity: 1, Z: 0}}
-        transition={{delay: 1, duration: 1}}
+        transition={{delay: 0.5, duration: 0.5}}
         >What We Do</motion.h3>
         <motion.div
         initial={{opacity: 0, z: 10}}
         animate={{opacity: 1, Z: 0}}
-        transition={{delay: 2.5, duration: 3.5}}
+        transition={{delay: 1.25, duration: 1.75}}
         
         >
             <Swiper
@@ -129,7 +129,7 @@ export default function Services() {
       className="trending"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      transition={{duration: 2.8, delay: 0.4 }}
+      transition={{duration: 1.4, delay: 0.2 }}
       >
         <h3>Trending Books</h3>
   
