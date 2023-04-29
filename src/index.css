@@ -29,7 +29,7 @@ body{
 
 @media(min-width: 1249px){
   .landing{
-    width: 1240px;
+    width: 1215px;
     margin: 0 auto ;
   }
   .landing > header > div{
@@ -182,10 +182,14 @@ body{
 
 /* Homepage */
 .home1 img{
-  width: 636px;
+  /* width: 636px;
   height: 832px;
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
+  width: 318px;
+  height: 416px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .home1{
   display:flex;
@@ -193,7 +197,7 @@ body{
   gap: 60px;
 }
 .home1 .home-text{
-  margin-top: 170px;
+  margin-top: 85px;
 }
 .home1 .home-text .first-text{
   font-size: 64px;
