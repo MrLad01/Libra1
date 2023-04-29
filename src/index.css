@@ -29,7 +29,7 @@ body{
 
 @media(min-width: 1249px){
   .landing{
-    width: 1215px;
+    width: 1240px;
     margin: 0 auto ;
   }
   .landing > header > div{
