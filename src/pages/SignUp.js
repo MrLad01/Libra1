@@ -66,7 +66,7 @@ export default function SignUp() {
         ) : (
           <div className="background">
       <div>
-           <img src= { logo } alt="logo" style={{marginLeft:"45px"}} />
+           <img src= { logo } alt="logo" style={{marginLeft:"45px", scale: 0.8}} />
             <div className="form-container">
               <div className="page-content">
                     <h2>SIGN UP</h2>

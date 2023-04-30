@@ -62,7 +62,7 @@ export default function LogIn() {
         </div>
         ) : (
         <div className="background">
-          <img src={ logo } alt="logo" style={{marginLeft: "45px"}} />
+          <img src={ logo } alt="logo" style={{marginLeft: "45px", scale: 0.8}} />
           <div >
               <div className="form-container">
                 <div className="page-content">
