@@ -53,7 +53,7 @@ export default function HomeLayout() {
               animate="show"
 
             className="home-text">
-              <motion.p className="first-text">Studying books, a <br /> long lasting way to changing lives</motion.p>
+              <motion.p className="first-text">Studying books,<br /> a  long lasting way to changing lives</motion.p>
               <motion.p 
                 variants={textVariant(0.1)}
                 className="second-text">We relieve you to a great deal by sourcing books for you to lend, read and change your lives. We are always ready to help</motion.p>
