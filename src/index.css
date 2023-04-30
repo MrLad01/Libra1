@@ -443,12 +443,12 @@ body{
   padding-right: 65px;
   background-color: #ffffff;
   margin-top: 20px;
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 .others .other h2{
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 45px;
   letter-spacing: 0em;
@@ -457,10 +457,12 @@ body{
   display: flex;
   flex-direction: row;
   gap: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
   justify-content: center;
   align-items: center;
   margin-bottom: 65px;
+  scale: 0.8;
 }
 .others .other .search-bar div{
   display: flex;
@@ -500,7 +502,7 @@ body{
 .others .reviews-ratings h2{
   text-align: center;
   padding-top: 50px;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 45px;
   letter-spacing: 0em;

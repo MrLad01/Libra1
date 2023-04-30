@@ -105,7 +105,7 @@ export default function Other() {
                 </select>
             </div>
             <input type="text" placeholder="Search by name" />
-            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" style={{color: "#AEADAE", position: "relative", right: "775px", top: "1px"}} />
+            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" style={{color: "#AEADAE", position: "relative", right: "755px", top: "1px"}} />
         </div>
         <Swiper
            modules={[Pagination, A11y, Keyboard, Mousewheel, Autoplay]}
@@ -115,6 +115,7 @@ export default function Other() {
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
             autoplay={{delay: 2500}}
+            className="trending-swiper"
          >
                {books}
         </Swiper>
