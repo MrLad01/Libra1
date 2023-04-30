@@ -141,6 +141,7 @@ export default function Services() {
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
             autoplay={{delay: 2500}}
+            className="trending-swiper"
             >
                {books}
         </Swiper>
