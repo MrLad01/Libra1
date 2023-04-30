@@ -495,6 +495,10 @@ body{
   text-indent: 30px;
   outline: none;
 }
+.review-swiper{
+  scale: 0.95;
+  margin-top: -30px;
+}
 .others .reviews-ratings{
   padding-left: 35px;
   padding-right: 65px;
@@ -552,13 +556,16 @@ body{
   top: 10px;
 }
 .others hr{
+  /* margin: 120px auto; */
   width: 1200px;
-  margin: 120px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
   border-style: dashed;
   color: #AEADAE;
 }
 .others div h3{
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 35px;
   letter-spacing: 0em;
@@ -607,6 +614,7 @@ body{
   flex-direction: row;
   padding-bottom: 150px;
   padding-left: 100px;
+  scale: 0.92;
 }
 .footer div .terms-and-condition .terms-text{
   display: flex;

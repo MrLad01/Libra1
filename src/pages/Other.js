@@ -130,6 +130,7 @@ export default function Other() {
             keyboard={{enabled: true}}
             mousewheel={{enabled: true}}
             autoplay={{delay: 2500}}
+            className="review-swiper"
          >
                {reviews}
         </Swiper>
